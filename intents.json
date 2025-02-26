@@ -1,0 +1,145 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "stethoscope_work",
+      "patterns": [
+        "How does a stethoscope work?",
+        "What is the working of a stethoscope?"
+      ],
+      "responses": [
+        "A stethoscope works by using vibrations to produce sound and transmit it to a medical professional's ears.",
+        "Stethoscope works by amplifying the sound waves produced by the body, allowing medical professionals to diagnose health conditions accurately."
+      ]
+    },
+    {
+      "tag": "stethoscope_use",
+      "patterns": [
+        "How to use a stethoscope?",
+        "How does a doctor use a stethoscope?"
+      ],
+      "responses": [
+        "Put the stethoscope over the patient's chest and listen.",
+        "Doctors place the stethoscope over the patient's chest to listen to internal sounds and diagnose conditions."
+      ]
+    },
+    {
+      "tag": "blood_pressure_monitor_work",
+      "patterns": [
+        "How does a blood pressure monitor work?",
+        "What is the working of a blood pressure monitor?"
+      ],
+      "responses": [
+        "A blood pressure monitor works by inflating the cuff to restrict blood flow, then measuring the pressure when the blood starts to flow again.",
+        "Blood pressure monitors measure the force of blood in your arteries by using an inflatable cuff and sensors."
+      ]
+    },
+    {
+      "tag": "blood_pressure_monitor_use",
+      "patterns": [
+        "How to use a blood pressure monitor?",
+        "How do I use a blood pressure cuff?"
+      ],
+      "responses": [
+        "Wrap the cuff around your upper arm, press start on the device, and wait for the reading.",
+        "Place the cuff on your arm, inflate it, and the monitor will display your blood pressure readings."
+      ]
+    },
+    {
+      "tag": "thermometer_work",
+      "patterns": [
+        "How does a thermometer work?",
+        "What is the working of a thermometer?"
+      ],
+      "responses": [
+        "A thermometer works by detecting the body's temperature through the expansion of mercury or by using electronic sensors.",
+        "Thermometers measure body temperature by detecting heat radiation or temperature changes from the body."
+      ]
+    },
+    {
+      "tag": "thermometer_use",
+      "patterns": [
+        "How to use a thermometer?",
+        "How do I take my temperature?"
+      ],
+      "responses": [
+        "Place the thermometer under your tongue or in your armpit, and wait for a few seconds for the reading.",
+        "Insert the thermometer into your ear or place it under your tongue to measure your body temperature."
+      ]
+    },
+    {
+      "tag": "glucometer_work",
+      "patterns": [
+        "How does a glucometer work?",
+        "What is the working of a glucose meter?"
+      ],
+      "responses": [
+        "A glucometer works by reading the glucose levels in a drop of blood placed on a test strip inserted into the device.",
+        "Glucometers measure blood sugar by using enzymes on the test strip to react with glucose in your blood and display the result."
+      ]
+    },
+    {
+      "tag": "glucometer_use",
+      "patterns": [
+        "How to use a glucometer?",
+        "How do I check my blood sugar with a glucose meter?"
+      ],
+      "responses": [
+        "Prick your finger to get a drop of blood, place it on the test strip, and insert the strip into the glucometer.",
+        "To use a glucometer, prick your finger, apply the blood to the strip, and the device will read your blood sugar level."
+      ]
+    },
+    {
+      "tag": "pulse_oximeter_work",
+      "patterns": [
+        "How does a pulse oximeter work?",
+        "What is the working of a pulse oximeter?"
+      ],
+      "responses": [
+        "A pulse oximeter works by shining light through your fingertip to measure oxygen levels in the blood.",
+        "Pulse oximeters measure blood oxygen levels by using light to detect oxygen saturation in the blood vessels."
+      ]
+    },
+    {
+      "tag": "pulse_oximeter_use",
+      "patterns": [
+        "How to use a pulse oximeter?",
+        "How do I measure oxygen levels with a pulse oximeter?"
+      ],
+      "responses": [
+        "Place the pulse oximeter on your fingertip and wait for the reading of your oxygen saturation and pulse rate.",
+        "To use a pulse oximeter, insert your finger into the device, and it will show your oxygen levels and pulse rate."
+      ]
+    }
+  ]
+}
