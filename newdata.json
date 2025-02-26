@@ -1,0 +1,412 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Hello",
+                "Good day",
+                "Is anyone there?",
+                "How's it going?",
+                "What's up?"
+            ],
+            "responses": [
+                "Hey there!",
+                "Hello! How can I assist you?",
+                "Hi! What do you need help with?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Take care",
+                "Catch you later"
+            ],
+            "responses": [
+                "See you later! Stay safe.",
+                "Goodbye! Feel free to return anytime.",
+                "Take care!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Appreciate it",
+                "Much obliged"
+            ],
+            "responses": [
+                "Glad to help!",
+                "You're welcome!",
+                "Anytime!",
+                "My pleasure!"
+            ]
+        },
+        {
+            "tag": "stethoscope_work",
+            "patterns": [
+                "How does a stethoscope work?",
+                "Can you explain the working of a stethoscope?",
+                "What does a stethoscope do?",
+                "How is a stethoscope used in medicine?"
+            ],
+            "responses": [
+                "A stethoscope amplifies body sounds.",
+                "It is primarily used to used for diagnosing heart and lung conditions."
+            ]
+        },
+        {
+            "tag": "stethoscope_use",
+            "patterns": [
+                "How to use a stethoscope?",
+                "What's the correct way to use a stethoscope?",
+                "How can I operate a stethoscope?"
+            ],
+            "responses": [
+                "Place on the chest and listen to heartbeats and lung sounds."
+            ]
+        },
+        {
+            "tag": "stethoscope_troubleshoot",
+            "patterns": [
+                "Why is my stethoscope not working?",
+                "My stethoscope is showing an error. What should I do?",
+                "How do I fix my stethoscope?"
+            ],
+            "responses": [
+                "Check if the earpieces are inserted correctly.",
+                "Ensure the diaphragm is not blocked."
+            ]
+        },
+        {
+            "tag": "blood pressure monitor_work",
+            "patterns": [
+                "How does a blood pressure monitor work?",
+                "Can you explain the working of a blood pressure monitor?",
+                "What does a blood pressure monitor do?",
+                "How is a blood pressure monitor used in medicine?"
+            ],
+            "responses": [
+                "A blood pressure monitor measures blood pressure.",
+                "It is primarily used to detects systolic and diastolic pressure."
+            ]
+        },
+        {
+            "tag": "blood pressure monitor_use",
+            "patterns": [
+                "How to use a blood pressure monitor?",
+                "What's the correct way to use a blood pressure monitor?",
+                "How can I operate a blood pressure monitor?"
+            ],
+            "responses": [
+                "Wrap the cuff around your arm, press start, and wait for the reading."
+            ]
+        },
+        {
+            "tag": "blood pressure monitor_troubleshoot",
+            "patterns": [
+                "Why is my blood pressure monitor not working?",
+                "My blood pressure monitor is showing an error. What should I do?",
+                "How do I fix my blood pressure monitor?"
+            ],
+            "responses": [
+                "Ensure the cuff is placed correctly.",
+                "Check battery levels and connections."
+            ]
+        },
+        {
+            "tag": "thermometer_work",
+            "patterns": [
+                "How does a thermometer work?",
+                "Can you explain the working of a thermometer?",
+                "What does a thermometer do?",
+                "How is a thermometer used in medicine?"
+            ],
+            "responses": [
+                "A thermometer measures body temperature.",
+                "It is primarily used to detects fever."
+            ]
+        },
+        {
+            "tag": "thermometer_use",
+            "patterns": [
+                "How to use a thermometer?",
+                "What's the correct way to use a thermometer?",
+                "How can I operate a thermometer?"
+            ],
+            "responses": [
+                "Place under the tongue or in the armpit and wait for the reading."
+            ]
+        },
+        {
+            "tag": "thermometer_troubleshoot",
+            "patterns": [
+                "Why is my thermometer not working?",
+                "My thermometer is showing an error. What should I do?",
+                "How do I fix my thermometer?"
+            ],
+            "responses": [
+                "Ensure the battery is charged.",
+                "Check if the sensor is clean."
+            ]
+        },
+        {
+            "tag": "glucometer_work",
+            "patterns": [
+                "How does a glucometer work?",
+                "Can you explain the working of a glucometer?",
+                "What does a glucometer do?",
+                "How is a glucometer used in medicine?"
+            ],
+            "responses": [
+                "A glucometer measures blood glucose levels.",
+                "It is primarily used to measures blood glucose levels."
+            ]
+        },
+        {
+            "tag": "glucometer_use",
+            "patterns": [
+                "How to use a glucometer?",
+                "What's the correct way to use a glucometer?",
+                "How can I operate a glucometer?"
+            ],
+            "responses": [
+                "Prick your finger, place a drop of blood on the test strip, insert into glucometer."
+            ]
+        },
+        {
+            "tag": "glucometer_troubleshoot",
+            "patterns": [
+                "Why is my glucometer not working?",
+                "My glucometer is showing an error. What should I do?",
+                "How do I fix my glucometer?"
+            ],
+            "responses": [
+                "Ensure test strips are not expired.",
+                "Clean the sensor and reinsert the strip."
+            ]
+        },
+        {
+            "tag": "pulse oximeter_work",
+            "patterns": [
+                "How does a pulse oximeter work?",
+                "Can you explain the working of a pulse oximeter?",
+                "What does a pulse oximeter do?",
+                "How is a pulse oximeter used in medicine?"
+            ],
+            "responses": [
+                "A pulse oximeter measures blood oxygen levels.",
+                "It is primarily used to measures blood oxygen levels."
+            ]
+        },
+        {
+            "tag": "pulse oximeter_use",
+            "patterns": [
+                "How to use a pulse oximeter?",
+                "What's the correct way to use a pulse oximeter?",
+                "How can I operate a pulse oximeter?"
+            ],
+            "responses": [
+                "Place on your fingertip and wait for the reading."
+            ]
+        },
+        {
+            "tag": "pulse oximeter_troubleshoot",
+            "patterns": [
+                "Why is my pulse oximeter not working?",
+                "My pulse oximeter is showing an error. What should I do?",
+                "How do I fix my pulse oximeter?"
+            ],
+            "responses": [
+                "Make sure your hands are warm.",
+                "Check the battery and clean the sensor."
+            ]
+        },
+        {
+            "tag": "ECG machine_work",
+            "patterns": [
+                "How does a ECG machine work?",
+                "Can you explain the working of a ECG machine?",
+                "What does a ECG machine do?",
+                "How is a ECG machine used in medicine?"
+            ],
+            "responses": [
+                "A ECG machine records electrical activity of the heart.",
+                "It is primarily used to records electrical activity of the heart."
+            ]
+        },
+        {
+            "tag": "ECG machine_use",
+            "patterns": [
+                "How to use a ECG machine?",
+                "What's the correct way to use a ECG machine?",
+                "How can I operate a ECG machine?"
+            ],
+            "responses": [
+                "Attach the electrodes to the chest, start the machine, and analyze the graph."
+            ]
+        },
+        {
+            "tag": "ECG machine_troubleshoot",
+            "patterns": [
+                "Why is my ECG machine not working?",
+                "My ECG machine is showing an error. What should I do?",
+                "How do I fix my ECG machine?"
+            ],
+            "responses": [
+                "Ensure electrodes are properly placed.",
+                "Check for loose connections."
+            ]
+        },
+        {
+            "tag": "ventilator_work",
+            "patterns": [
+                "How does a ventilator work?",
+                "Can you explain the working of a ventilator?",
+                "What does a ventilator do?",
+                "How is a ventilator used in medicine?"
+            ],
+            "responses": [
+                "A ventilator assists in breathing.",
+                "It is primarily used to assists in breathing."
+            ]
+        },
+        {
+            "tag": "ventilator_use",
+            "patterns": [
+                "How to use a ventilator?",
+                "What's the correct way to use a ventilator?",
+                "How can I operate a ventilator?"
+            ],
+            "responses": [
+                "Connect the patient, adjust settings, and monitor oxygen levels."
+            ]
+        },
+        {
+            "tag": "ventilator_troubleshoot",
+            "patterns": [
+                "Why is my ventilator not working?",
+                "My ventilator is showing an error. What should I do?",
+                "How do I fix my ventilator?"
+            ],
+            "responses": [
+                "Check tube connections.",
+                "Ensure filters are clean."
+            ]
+        },
+        {
+            "tag": "infusion pump_work",
+            "patterns": [
+                "How does a infusion pump work?",
+                "Can you explain the working of a infusion pump?",
+                "What does a infusion pump do?",
+                "How is a infusion pump used in medicine?"
+            ],
+            "responses": [
+                "A infusion pump delivers fluids and medications.",
+                "It is primarily used to delivers fluids and medications."
+            ]
+        },
+        {
+            "tag": "infusion pump_use",
+            "patterns": [
+                "How to use a infusion pump?",
+                "What's the correct way to use a infusion pump?",
+                "How can I operate a infusion pump?"
+            ],
+            "responses": [
+                "Set the infusion rate, connect the IV, and start the pump."
+            ]
+        },
+        {
+            "tag": "infusion pump_troubleshoot",
+            "patterns": [
+                "Why is my infusion pump not working?",
+                "My infusion pump is showing an error. What should I do?",
+                "How do I fix my infusion pump?"
+            ],
+            "responses": [
+                "Check if the IV line is blocked.",
+                "Ensure the correct dosage is set."
+            ]
+        },
+        {
+            "tag": "defibrillator_work",
+            "patterns": [
+                "How does a defibrillator work?",
+                "Can you explain the working of a defibrillator?",
+                "What does a defibrillator do?",
+                "How is a defibrillator used in medicine?"
+            ],
+            "responses": [
+                "A defibrillator delivers an electric shock to restore heart rhythm.",
+                "It is primarily used to delivers an electric shock to restore heart rhythm."
+            ]
+        },
+        {
+            "tag": "defibrillator_use",
+            "patterns": [
+                "How to use a defibrillator?",
+                "What's the correct way to use a defibrillator?",
+                "How can I operate a defibrillator?"
+            ],
+            "responses": [
+                "Place paddles on the chest, analyze rhythm, and deliver shock if necessary."
+            ]
+        },
+        {
+            "tag": "defibrillator_troubleshoot",
+            "patterns": [
+                "Why is my defibrillator not working?",
+                "My defibrillator is showing an error. What should I do?",
+                "How do I fix my defibrillator?"
+            ],
+            "responses": [
+                "Ensure the battery is charged.",
+                "Check for proper pad placement."
+            ]
+        },
+        {
+            "tag": "nebulizer_work",
+            "patterns": [
+                "How does a nebulizer work?",
+                "Can you explain the working of a nebulizer?",
+                "What does a nebulizer do?",
+                "How is a nebulizer used in medicine?"
+            ],
+            "responses": [
+                "A nebulizer delivers medication as mist.",
+                "It is primarily used to delivers medication as mist."
+            ]
+        },
+        {
+            "tag": "nebulizer_use",
+            "patterns": [
+                "How to use a nebulizer?",
+                "What's the correct way to use a nebulizer?",
+                "How can I operate a nebulizer?"
+            ],
+            "responses": [
+                "Fill with medication, turn it on, and inhale the mist through a mask."
+            ]
+        },
+        {
+            "tag": "nebulizer_troubleshoot",
+            "patterns": [
+                "Why is my nebulizer not working?",
+                "My nebulizer is showing an error. What should I do?",
+                "How do I fix my nebulizer?"
+            ],
+            "responses": [
+                "Check if the medicine chamber is filled.",
+                "Ensure proper air pressure flow."
+            ]
+        }
+    ]
+}

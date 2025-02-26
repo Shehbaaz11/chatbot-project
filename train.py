@@ -7,7 +7,7 @@ from nltk_utils import tokenize, stem, bag_of_words
 import json
 
 # Load intents file
-with open("intents.json", "r") as f:
+with open("newdata.json", "r") as f:
     intents = json.load(f)
 
 all_words = []
@@ -38,7 +38,7 @@ y_train = np.array(y_train)
 
 # Model parameters
 input_size = len(X_train[0])
-hidden_size = 8
+hidden_size = 32
 output_size = len(tags)
 model = NeuralNet(input_size, hidden_size, output_size)
 
@@ -46,7 +46,7 @@ model = NeuralNet(input_size, hidden_size, output_size)
 criterion = nn.CrossEntropyLoss()
 optimizer = optim.Adam(model.parameters(), lr=0.001)
 
-epochs = 1000
+epochs = 400
 for epoch in range(epochs):
     optimizer.zero_grad()
     output = model(torch.tensor(X_train, dtype=torch.float32))

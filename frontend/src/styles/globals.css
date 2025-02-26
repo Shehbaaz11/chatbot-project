@@ -1,0 +1,214 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  /* Chat Header */
+  .chat-header {
+    font-size: 32px; /* Increased size */
+    font-weight: bold;
+    text-align: center; /* Centered the text */
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Space between icon and text */
+  }
+  
+  /* Stethoscope Icon */
+  .chat-header::before {
+    content: "🩺"; /* Doctor's stethoscope icon */
+    font-size: 36px; /* Adjusted size */
+  }
+  
+  
+  
+  
+  /* Chat Container */
+  .chat-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    background: #1e1e1e;
+    overflow: hidden;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 300px;
+    background: #222;
+    color: white;
+    padding: 15px;
+    position: absolute;
+    left: -310px; /* Shifted more to the left */
+    top: 0;
+    bottom: 0;
+    transition: left 0.3s ease-in-out;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .sidebar.open {
+    left: -10px;
+  }
+  
+  /* Sidebar Header */
+  .sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .close-sidebar {
+    background: red;
+    color: white;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .close-sidebar:hover {
+    background: darkred;
+  }
+  
+  /* Sidebar Content */
+  .sidebar-heading {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+  }
+  
+  .sidebar ul li {
+    padding: 10px;
+    background: #333;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .sidebar ul li:hover {
+    background: #444;
+  }
+  
+  /* Sidebar Toggle Button */
+  .menu-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 18px;
+    background: #444;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .menu-btn:hover {
+    background: #666;
+  }
+  
+  /* Chat Content */
+  .chat-content {
+    flex: 1;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Chat Box - Increased Size */
+  .chat-box {
+    width: 90%;
+    max-width: 1000px;
+    height: 600px;
+    overflow-y: auto;
+    background: #000;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+    font-size: 18px;
+  }
+  /* Messages */
+  .message {
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 5px;
+    background: #444;
+    color: white;
+    font-size: 16px;
+    max-width: 80%;
+    word-wrap: break-word;
+    display: block;
+  }
+  /* User messages - Positioned on the right side */
+  .user-message {
+    background: #0078ff; /* Blue for user messages */
+    color: white;
+    text-align: right;
+    margin-left: auto; /* Moves the message to the right */
+    width: fit-content;
+  }
+  
+  /* Bot messages - Positioned on the left side */
+  .bot-message {
+    background: #444; /* Grey for bot messages */
+    color: white;
+    text-align: left;
+    margin-right: auto; /* Moves the message to the left */
+    width: fit-content;
+  }
+  
+  
+  /* Input Box - Enlarged */
+  .input-container {
+    width: 90%;
+    max-width: 1000px;
+    display: flex;
+    margin-top: 15px;
+  }
+  
+  .input-container input {
+    flex: 1;
+    padding: 15px;
+    background: #000;
+    color: white;
+    border: 2px solid white;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  /* Buttons */
+  .send-btn, .mic-btn {
+    font-size: 20px;
+    padding: 15px;
+    background: white;
+    color: black;
+    cursor: pointer;
+    border: none;
+    margin-left: 5px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .send-btn:hover, .mic-btn:hover {
+    background: #ccc;
+  }
+  

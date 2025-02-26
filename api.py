@@ -19,7 +19,7 @@ for key in required_keys:
     if key not in data:
         raise KeyError(f"Missing key in model data: {key}")
 
-with open("intents.json", "r") as f:
+with open("newdata.json", "r") as f:
     intents = json.load(f)
 
 # Model setup
