@@ -1,22 +1,16 @@
+const dotenv = require('dotenv');
+dotenv.config();
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
 const axios = require("axios"); // Axios for API calls
-
+const connectToDB = require("./db/db");
+const userRoutes = require('./routes/user.routes');
+connectToDB();
 const app = express();
 app.use(express.json());
 app.use(cors());
 
-// MongoDB Connection
-mongoose.connect("mongodb://127.0.0.1:27017/chatbotDB", {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
-const ChatSchema = new mongoose.Schema({
-  user: String,
-  bot: String,
-});
-const Chat = mongoose.model("Chat", ChatSchema);
 
 // Route to handle chat messages
 app.post("/chat", async (req, res) => {
@@ -29,9 +23,6 @@ app.post("/chat", async (req, res) => {
     });
     const botMessage = response.data.bot;
 
-    // Save chat history to MongoDB
-    const chatEntry = new Chat({ user: message, bot: botMessage });
-    await chatEntry.save();
 
     res.json({ bot: botMessage });
   } catch (error) {
@@ -39,5 +30,8 @@ app.post("/chat", async (req, res) => {
   }
 });
 
+app.use('/users', userRoutes);
+
+
 // Start Express Server
-app.listen(8383, () => console.log("Server running on port 8383"));
+app.listen(8282, () => console.log("Server running on port 8282"));
