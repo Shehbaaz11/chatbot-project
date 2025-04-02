@@ -19,3 +19,19 @@ module.exports.registerUser = async (req,res,next) => {
         console.log(err);
     }
 }
+module.exports.loginUser = async (req,res,next) => {
+    const {email, password} = req.body;
+    const user = await userModel.findOne({email}).select("+password");
+    if(!user){
+        return res.status(400).json({message: 'Invalid email or password.'});
+    }
+    try{
+        const isValidPassword = await bcrypt.compare(password,user.password);
+        if(isValidPassword){
+            res.status(200).json({message: 'User logged in successfully.'});
+        }
+    }
+    catch(err){
+        console.log(err);
+    }
+}

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+const axios = require('axios');
 
 const Chatbot = () => {
   const [messages, setMessages] = useState([]);

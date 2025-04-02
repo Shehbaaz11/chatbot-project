@@ -12,7 +12,18 @@ userController.registerUser
 );
 
 router.get('/register', (req,res) => {
-    console.log('Touched 8383/register get route');
+    console.log('Touched 8282/register get route');
     res.send('Register endpoint is working!');
+})
+
+router.post('/login', [
+    body('email').isEmail().withMessage('Email must be atleast 5 characters long.'),
+    body('password').isLength({min: 6}).withMessage('Password must be atleast 6 characters long.')
+],
+userController.loginUser
+);
+router.get('/login',(req,res) => {
+    console.log('Touched 8282/login get route');
+    res.send("Login endpoint is working!");
 })
 module.exports = router;

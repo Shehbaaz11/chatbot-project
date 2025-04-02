@@ -1,15 +1,34 @@
 "use client";
 import React, { useState } from "react";
 import { EyeIcon, EyeClosedIcon, EyeOffIcon } from "lucide-react";
+import { useRouter } from "next/navigation";
+const axios = require('axios');
 function page() {
+  const router = useRouter();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [visible, setVisible] = useState(false);
   const toggleVisibility = () => {
     setVisible(!visible);
   }
-  const handleSubmit =(e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+
+    try{
+      const loggedUser = {
+        email: email,
+        password: password
+      }
+      const response = await axios.post("http://127.0.0.1:8282/users/login", loggedUser)
+
+      if(response.status == 200){
+        const data = response.data;
+        router.push('/chat');
+      }
+    }
+    catch(err){
+      console.log(err);
+    }
   }
   return (
     <div style={{backgroundColor: "#121212", color:"#e5e9f0"}} className="flex justify-center items-center h-screen w-screen">
