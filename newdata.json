@@ -9,12 +9,23 @@
                 "Good day",
                 "Is anyone there?",
                 "How's it going?",
-                "What's up?"
+                "What's up?",
+                "Greetings",
+                "Good morning",
+                "Good afternoon",
+                "Good evening",
+                "Hi there",
+                "Hello there",
+                "Hey there",
+                "Yo",
+                "Hiya"
             ],
             "responses": [
                 "Hey there!",
-                "Hello! How can I assist you?",
-                "Hi! What do you need help with?"
+                "Hello! How can I assist you today?",
+                "Hi! What medical device do you need help with?",
+                "Greetings! I'm here to help with medical device questions.",
+                "Hello! Ask me anything about medical equipment."
             ]
         },
         {
@@ -24,12 +35,22 @@
                 "See you later",
                 "Goodbye",
                 "Take care",
-                "Catch you later"
+                "Catch you later",
+                "Farewell",
+                "Signing off",
+                "I'm done",
+                "That's all",
+                "See ya",
+                "Bye bye",
+                "Have a good one",
+                "Until next time"
             ],
             "responses": [
-                "See you later! Stay safe.",
-                "Goodbye! Feel free to return anytime.",
-                "Take care!"
+                "See you later! Stay safe with your medical devices.",
+                "Goodbye! Feel free to return if you have more questions.",
+                "Take care! Remember to maintain your medical equipment properly.",
+                "Farewell! Don't hesitate to ask if you need help later.",
+                "Have a great day! Stay healthy!"
             ]
         },
         {
@@ -39,13 +60,24 @@
                 "Thank you",
                 "That's helpful",
                 "Appreciate it",
-                "Much obliged"
+                "Much obliged",
+                "Thanks a lot",
+                "Thank you very much",
+                "Many thanks",
+                "I appreciate it",
+                "You're awesome",
+                "You're helpful",
+                "Great help",
+                "Thanks a bunch",
+                "Thanks a ton",
+                "Much appreciated"
             ],
             "responses": [
-                "Glad to help!",
-                "You're welcome!",
-                "Anytime!",
-                "My pleasure!"
+                "Glad to help with your medical device questions!",
+                "You're welcome! Stay safe with your equipment.",
+                "Anytime! Let me know if you have other questions.",
+                "My pleasure! Proper device use is important for health.",
+                "Happy to assist! Remember to follow manufacturer guidelines."
             ]
         },
         {
@@ -54,11 +86,25 @@
                 "How does a stethoscope work?",
                 "Can you explain the working of a stethoscope?",
                 "What does a stethoscope do?",
-                "How is a stethoscope used in medicine?"
+                "How is a stethoscope used in medicine?",
+                "Explain stethoscope functionality",
+                "What's the principle behind stethoscopes?",
+                "How do doctors hear with stethoscopes?",
+                "Stethoscope working mechanism",
+                "Science behind stethoscopes",
+                "Why do we use stethoscopes?",
+                "Purpose of a stethoscope",
+                "Medical use of stethoscope",
+                "How stethoscope amplifies sound",
+                "Stethoscope acoustics explanation",
+                "Physical principle of stethoscope"
             ],
             "responses": [
-                "A stethoscope amplifies body sounds.",
-                "It is primarily used to used for diagnosing heart and lung conditions."
+                "A stethoscope amplifies body sounds through its diaphragm and bell, allowing healthcare providers to hear internal sounds like heartbeats, lung sounds, and blood flow.",
+                "Stethoscopes work by capturing acoustic vibrations from the body's surface and channeling them through air-filled tubes to the listener's ears, amplifying subtle sounds for diagnosis.",
+                "This medical device consists of a chest piece with diaphragm/bell, tubing, and earpieces. The diaphragm detects high-frequency sounds while the bell picks up low-frequency sounds.",
+                "In medicine, stethoscopes are primarily used for auscultation - listening to heart sounds (normal and abnormal), lung sounds (breath sounds, crackles, wheezes), and bowel sounds.",
+                "The stethoscope works on sound transmission principles. Body sounds vibrate the diaphragm, creating sound waves that travel through tubing to the ears, helping diagnose various conditions."
             ]
         },
         {
@@ -66,22 +112,58 @@
             "patterns": [
                 "How to use a stethoscope?",
                 "What's the correct way to use a stethoscope?",
-                "How can I operate a stethoscope?"
+                "How can I operate a stethoscope?",
+                "Proper stethoscope technique",
+                "Steps for using stethoscope",
+                "Guide to using stethoscope",
+                "Stethoscope usage instructions",
+                "How do I listen with a stethoscope?",
+                "Best practices for stethoscope use",
+                "How to position stethoscope",
+                "Where to place stethoscope for heart sounds",
+                "Where to place stethoscope for lungs",
+                "Stethoscope placement guide",
+                "How to wear stethoscope correctly",
+                "How to hold stethoscope chestpiece"
             ],
             "responses": [
-                "Place on the chest and listen to heartbeats and lung sounds."
-            ]
+                "To use a stethoscope: 1) Insert earpieces angled forward 2) Place diaphragm firmly on skin (chest for heart, back for lungs) 3) Listen carefully in quiet environment 4) Compare symmetrical body areas.",
+                "Proper technique: Warm the chestpiece first, place directly on skin (not through clothing), apply firm pressure for diaphragm use, light pressure for bell use, and listen systematically to all heart valve areas.",
+                "For heart sounds: Listen at 4-5 specific locations on the chest corresponding to heart valves. For lungs: Listen to upper, middle, and lower lung fields anteriorly and posteriorly, comparing left and right.",
+                "Best practices include: using in quiet room, having patient breathe normally (or hold breath if needed), cleaning between patients, and practicing to recognize normal vs abnormal sounds.",
+                "Correct use involves: proper earpiece fit (pointing forward), minimal tubing noise, appropriate chestpiece selection (diaphragm vs bell), and systematic examination pattern for consistency.",
+                "A stethoscope helps doctors and nurses listen to internal body sounds like the heart, lungs, and stomach.",
+                "It works by capturing sound vibrations and sending them to the user's ears through hollow tubing.",
+                "Step 1: The doctor places the chest piece on the patient's body. The diaphragm (big side) is used for high-pitched sounds like the heart and lungs, while the bell (small side) is used for low-pitched sounds like murmurs. Step 2: The vibrations from body sounds travel through the tubing, which prevents outside noise from interfering. Step 3: The ear tips deliver the amplified sound to the doctor, allowing them to hear heartbeat rhythm, breathing patterns, or digestive sounds.",
+                "Stethoscopes are commonly used for heart checkups, lung examinations, and monitoring blood pressure."
+            ],
+            "video_embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/5Mb_O79Gh4o' frameborder='0' allowfullscreen></iframe>"
         },
         {
             "tag": "stethoscope_troubleshoot",
             "patterns": [
                 "Why is my stethoscope not working?",
                 "My stethoscope is showing an error. What should I do?",
-                "How do I fix my stethoscope?"
+                "How do I fix my stethoscope?",
+                "Stethoscope troubleshooting guide",
+                "Stethoscope not picking up sounds",
+                "Stethoscope sound quality issues",
+                "Stethoscope maintenance tips",
+                "How to clean a stethoscope",
+                "Stethoscope earpieces not working",
+                "Stethoscope tubing problems",
+                "Stethoscope diaphragm issues",
+                "Why can't I hear with my stethoscope?",
+                "Stethoscope repair options",
+                "Stethoscope parts replacement",
+                "Stethoscope not amplifying sound"
             ],
             "responses": [
-                "Check if the earpieces are inserted correctly.",
-                "Ensure the diaphragm is not blocked."
+                "If your stethoscope isn't working: 1) Check earpieces are inserted correctly (angled forward) 2) Ensure diaphragm isn't blocked 3) Examine tubing for cracks/leaks 4) Clean ear tips and chestpiece 5) Test by tapping lightly on diaphragm.",
+                "Common issues and fixes: Poor sound - check earpiece orientation; No sound - ensure diaphragm/bell is switched correctly; Crackling noise - inspect tubing for damage; Weak sound - clean all parts thoroughly.",
+                "For maintenance: Clean regularly with alcohol wipes (avoid immersing), store properly (not in extreme temps), check tension on binaurals, replace ear tips every 6-12 months, and avoid stretching tubing.",
+                "If hearing is faint: 1) Verify chestpiece is fully rotated to open side 2) Check for obstructions 3) Ensure good skin contact 4) Examine for tubing damage 5) Try different ear tips for better seal.",
+                "For electronic stethoscope issues: Check battery, ensure proper volume settings, verify no mute function is on, update software if applicable, and contact manufacturer if problems persist."
             ]
         },
         {
@@ -90,11 +172,28 @@
                 "How does a blood pressure monitor work?",
                 "Can you explain the working of a blood pressure monitor?",
                 "What does a blood pressure monitor do?",
-                "How is a blood pressure monitor used in medicine?"
+                "How is a blood pressure monitor used in medicine?",
+                "Blood pressure monitor mechanism",
+                "Principle of oscillometric BP measurement",
+                "Digital vs manual blood pressure monitors",
+                "Science behind BP monitors",
+                "How BP cuffs measure pressure",
+                "Explain automatic BP monitors",
+                "What technology do BP monitors use?",
+                "Working of sphygmomanometer",
+                "How are systolic and diastolic measured?",
+                "BP monitor components explained",
+                "Accuracy of blood pressure monitors"
             ],
             "responses": [
-                "A blood pressure monitor measures blood pressure.",
-                "It is primarily used to detects systolic and diastolic pressure."
+                "Blood pressure monitors work by detecting arterial blood flow oscillations. The cuff inflates to stop blood flow, then slowly deflates while sensors detect vibrations that indicate systolic and diastolic pressures.",
+                "Digital BP monitors use oscillometric technology - they measure pressure fluctuations in the cuff caused by pulse waves, then calculate systolic (peak pressure) and diastolic (minimum pressure) values algorithmically.",
+                "A BP monitor consists of: an inflatable cuff, pressure sensor, display unit, and pump. It detects when blood begins flowing (systolic) and when flow becomes unrestricted (diastolic) during cuff deflation.",
+                "In medicine, BP monitors help diagnose/track hypertension, assess cardiovascular health, monitor during procedures, and evaluate treatment effectiveness by providing accurate, repeatable pressure measurements.",
+                "The device works by temporarily stopping then restoring arterial blood flow while precisely measuring pressure changes. Modern units also detect irregular heartbeats and can store readings for tracking.",
+                "A blood pressure monitor measures how strongly blood pushes against your arteries when your heart beats and rests.",
+                "Step 1: The cuff is wrapped around the upper arm and inflated to temporarily stop blood flow in the artery. Step 2: The cuff slowly deflates, and the monitor detects the first sound of blood flow returning. This is the systolic pressure (higher number). Step 3: As the cuff continues to deflate, the sound disappears when blood flow is normal again. This is the diastolic pressure (lower number). Step 4: The monitor displays the blood pressure as Systolic/Diastolic (e.g., 120/80 mmHg). Step 5: Digital monitors do this automatically, while manual monitors require a stethoscope to listen for the pulse.",
+                "Blood pressure readings help check for high blood pressure (hypertension) or low blood pressure (hypotension)."
             ]
         },
         {
@@ -102,10 +201,26 @@
             "patterns": [
                 "How to use a blood pressure monitor?",
                 "What's the correct way to use a blood pressure monitor?",
-                "How can I operate a blood pressure monitor?"
+                "How can I operate a blood pressure monitor?",
+                "BP monitor usage guide",
+                "Steps to measure blood pressure",
+                "Proper cuff placement for BP",
+                "Home blood pressure monitoring technique",
+                "How to get accurate BP readings",
+                "Best practices for BP measurement",
+                "Preparing for BP measurement",
+                "Patient position for BP check",
+                "How often to check blood pressure",
+                "Arm position for BP monitor",
+                "Avoiding false BP readings",
+                "Manual BP measurement steps"
             ],
             "responses": [
-                "Wrap the cuff around your arm, press start, and wait for the reading."
+                "To use: 1) Sit quietly for 5 minutes 2) Place cuff on bare upper arm at heart level 3) Rest arm supported 4) Start measurement 5) Remain still and silent 6) Record reading with time/date.",
+                "For accurate results: Avoid caffeine/exercise 30 mins prior, use proper cuff size, sit with back supported and feet flat, take multiple readings 1-2 mins apart, and measure at consistent times daily.",
+                "Proper technique includes: Positioning cuff directly on skin (not over clothes), ensuring lower edge is 1 inch above elbow, keeping arm relaxed during inflation, and not talking during measurement.",
+                "Best practices: Measure at same time daily, empty bladder first, don't cross legs, keep cuff at heart level, use validated device, and record readings for doctor review with any symptoms noted.",
+                "For home monitoring: Take 2-3 readings morning and evening for a week, discard first day's readings, use same arm each time, follow manufacturer instructions, and bring log to medical appointments."
             ]
         },
         {
@@ -113,11 +228,26 @@
             "patterns": [
                 "Why is my blood pressure monitor not working?",
                 "My blood pressure monitor is showing an error. What should I do?",
-                "How do I fix my blood pressure monitor?"
+                "How do I fix my blood pressure monitor?",
+                "BP monitor error codes explained",
+                "Blood pressure cuff not inflating",
+                "BP monitor giving inconsistent readings",
+                "Troubleshooting home BP monitor",
+                "BP device maintenance tips",
+                "How to calibrate BP monitor",
+                "BP monitor battery issues",
+                "Display problems with BP device",
+                "Cuff connection problems",
+                "BP monitor not turning on",
+                "How to test BP monitor accuracy",
+                "When to replace BP monitor"
             ],
             "responses": [
-                "Ensure the cuff is placed correctly.",
-                "Check battery levels and connections."
+                "Common issues: Ensure cuff is properly connected, batteries are fresh, cuff size is appropriate, and you're following correct procedure. Error codes often indicate cuff placement or movement problems.",
+                "If getting errors: 1) Check cuff placement 2) Verify no movement during measurement 3) Ensure proper arm position 4) Try different batteries 5) Reset device 6) Consult manual for specific error codes.",
+                "For inaccurate readings: Check cuff size (bladder should encircle 80% of arm), avoid measurements after eating/exercise, ensure proper rest period, and compare with manual measurements periodically.",
+                "Maintenance tips: Store properly (avoid extreme temps), clean cuff per instructions, replace batteries promptly, check tubing for cracks, and have device validated annually for accuracy.",
+                "If device fails: First try new batteries and proper cuff placement. If problems persist, contact manufacturer. Most home BP monitors last 2-3 years with proper care before needing replacement."
             ]
         },
         {
@@ -126,11 +256,27 @@
                 "How does a thermometer work?",
                 "Can you explain the working of a thermometer?",
                 "What does a thermometer do?",
-                "How is a thermometer used in medicine?"
+                "How is a thermometer used in medicine?",
+                "Different types of thermometers explained",
+                "Digital thermometer technology",
+                "Infrared thermometer principle",
+                "How thermometers measure body heat",
+                "Science behind temperature measurement",
+                "Medical thermometer accuracy",
+                "Ear thermometer working mechanism",
+                "Forehead thermometer technology",
+                "Glass vs digital thermometers",
+                "Thermometer sensor types",
+                "How fever is detected"
             ],
             "responses": [
-                "A thermometer measures body temperature.",
-                "It is primarily used to detects fever."
+                "Thermometers work by measuring thermal energy. Digital types use electronic sensors (thermistors) that change resistance with temperature, while infrared models detect heat radiation from body surfaces.",
+                "Medical thermometers detect body temperature through various methods: oral/rectal contact, temporal artery scanning, tympanic (ear) infrared detection, or axillary placement, each with specific accuracy considerations.",
+                "Digital thermometers contain a temperature sensor that converts heat to electrical signals displayed numerically. Infrared models measure thermal radiation without contact, ideal for quick screenings.",
+                "In healthcare, thermometers help detect fever (pyrexia), monitor treatment effectiveness, assess patient status, and screen for infections by accurately measuring core or surface body temperature.",
+                "Different types work differently: Oral/rectal use direct contact, ear thermometers measure tympanic membrane IR radiation, temporal scanners read forehead heat, and smart patches monitor continuously.",
+                "A thermometer measures body temperature to check if someone has a fever or an abnormal body temperature.",
+                "Step 1: The thermometer is placed in the mouth, under the arm, in the ear, or on the forehead, depending on the type. Step 2: A sensor in the thermometer detects heat from the body. Step 3: Digital thermometers display the temperature on a screen, while mercury thermometers use a liquid that expands when heated. Step 4: The normal body temperature is around 98.6°F (37°C), and a fever is usually above 100.4°F (38°C). Step 5: Infrared thermometers measure heat radiation from the forehead or ear without direct contact, making them useful for quick and hygienic temperature checks."
             ]
         },
         {
@@ -138,10 +284,26 @@
             "patterns": [
                 "How to use a thermometer?",
                 "What's the correct way to use a thermometer?",
-                "How can I operate a thermometer?"
+                "How can I operate a thermometer?",
+                "Taking temperature instructions",
+                "Proper thermometer technique",
+                "Where to place thermometer",
+                "Oral temperature measurement steps",
+                "Ear thermometer usage guide",
+                "Forehead thermometer how-to",
+                "Best practices for temperature taking",
+                "How to get accurate readings",
+                "Preparing to take temperature",
+                "Cleaning thermometer instructions",
+                "How long to wait for reading",
+                "Different thermometer positions"
             ],
             "responses": [
-                "Place under the tongue or in the armpit and wait for the reading."
+                "Usage varies by type: Oral - place under tongue, close mouth; Rectal - lubricate tip, insert gently; Axillary - place in dry armpit; Ear - align properly in ear canal; Temporal - swipe across forehead.",
+                "For accurate readings: Wait 15-30 mins after eating/drinking for oral temps, ensure probe covers are clean, follow manufacturer instructions precisely, and document method used for comparison.",
+                "Best practices: Clean before/after use, wait for ready indicator, hold digital until beep, don't mix measurement sites, know normal ranges for each method, and record measurements with time/method.",
+                "For ear thermometers: Pull ear back to straighten canal, insert gently, aim at tympanic membrane, use fresh probe cover each time, and avoid use with ear infection or excessive wax.",
+                "Temporal artery thermometers: Swipe across forehead to temporal area, keep sensor clean/dry, measure in consistent environment, and avoid taking immediately after being outdoors in cold/heat."
             ]
         },
         {
@@ -149,11 +311,26 @@
             "patterns": [
                 "Why is my thermometer not working?",
                 "My thermometer is showing an error. What should I do?",
-                "How do I fix my thermometer?"
+                "How do I fix my thermometer?",
+                "Thermometer error codes explained",
+                "Digital thermometer display issues",
+                "Thermometer not turning on",
+                "Inconsistent temperature readings",
+                "How to calibrate thermometer",
+                "Thermometer battery replacement",
+                "Cleaning temperature sensors",
+                "Infrared thermometer problems",
+                "Ear thermometer accuracy issues",
+                "When to replace thermometer",
+                "Thermometer maintenance guide",
+                "Troubleshooting fever scans"
             ],
             "responses": [
-                "Ensure the battery is charged.",
-                "Check if the sensor is clean."
+                "Common issues: Check battery, clean sensor, ensure proper probe cover (if applicable), wait between measurements, verify correct mode (C/F), and follow reset instructions in manual.",
+                "For errors: Try new batteries first, clean according to instructions, ensure proper usage technique, check for damage, and consult manual for specific error code meanings before attempting repairs.",
+                "Accuracy problems may stem from: improper use, low battery, sensor damage, outdated calibration, or environmental factors. Compare with known accurate thermometer if readings seem incorrect.",
+                "Maintenance: Clean with appropriate solution (often alcohol), store properly, replace probe covers regularly, check battery compartment for corrosion, and handle carefully to avoid sensor damage.",
+                "If infrared thermometer gives erratic readings: Check for lens obstructions, ensure measurement distance is correct, avoid drafts, verify emissivity settings, and allow unit to acclimate to room temperature."
             ]
         },
         {
@@ -162,11 +339,27 @@
                 "How does a glucometer work?",
                 "Can you explain the working of a glucometer?",
                 "What does a glucometer do?",
-                "How is a glucometer used in medicine?"
+                "How is a glucometer used in medicine?",
+                "Blood glucose monitor mechanism",
+                "Science behind glucose testing",
+                "Electrochemical glucose detection",
+                "Glucometer test strip technology",
+                "How strips measure blood sugar",
+                "Principles of glucose monitoring",
+                "Continuous vs fingerstick monitors",
+                "Accuracy of glucose meters",
+                "Components of glucometer system",
+                "Enzymes used in glucose testing",
+                "Evolution of glucose monitoring"
             ],
             "responses": [
-                "A glucometer measures blood glucose levels.",
-                "It is primarily used to measures blood glucose levels."
+                "Glucometers work via electrochemical reaction - test strips contain enzymes (usually glucose oxidase) that react with blood glucose, producing electrical current proportional to glucose concentration measured by meter.",
+                "The device uses test strips with tiny electrodes. When blood is applied, glucose reacts with enzymes, creating electrons that generate current. The meter calculates glucose level from this electrical signal.",
+                "Modern glucometers require only a tiny blood drop. The strip's chemistry converts glucose to measurable signals, while advanced algorithms compensate for hematocrit and other variables affecting accuracy.",
+                "In diabetes management, glucometers enable self-monitoring of blood glucose (SMBG), helping patients adjust diet, exercise and medication while providing data for healthcare providers to optimize treatment.",
+                "Systems include: lancing device to obtain blood, test strips with chemical reagents, meter to read results, and often connectivity to track trends. Newer models offer Bluetooth and app integration.",
+                "Step 1: A small *test strip* is inserted into the glucometer. Step 2: The user pricks their finger with a *lancet* (tiny needle) to get a small drop of blood. Step 3: The blood is placed on the test strip, which contains chemicals that react with glucose (sugar). Step 4: The glucometer reads the reaction and calculates the blood sugar level in mg/dL or mmol/L. Step 5: The result appears on the screen in seconds, helping users monitor their sugar levels to manage diabetes effectively."
+    
             ]
         },
         {
@@ -174,10 +367,26 @@
             "patterns": [
                 "How to use a glucometer?",
                 "What's the correct way to use a glucometer?",
-                "How can I operate a glucometer?"
+                "How can I operate a glucometer?",
+                "Steps for blood glucose testing",
+                "Proper fingerstick technique",
+                "Glucometer usage instructions",
+                "Preparing for glucose test",
+                "How to get accurate glucose readings",
+                "Best practices for glucose monitoring",
+                "When to test blood sugar",
+                "Finger alternatives for testing",
+                "How to apply blood to test strip",
+                "Glucose meter coding requirements",
+                "Storing test strips properly",
+                "Disposing of lancets safely"
             ],
             "responses": [
-                "Prick your finger, place a drop of blood on the test strip, insert into glucometer."
+                "To use: 1) Wash hands 2) Insert strip 3) Prick finger side 4) Apply blood drop 5) Wait for result 6) Record reading 7) Dispose lancet safely. Rotate testing sites to prevent soreness.",
+                "Proper technique: Use fresh lancet, warm hands if cold, wipe away first blood drop, don't squeeze finger excessively, ensure strip fills completely, and follow meter's specific instructions.",
+                "For accuracy: Check strip expiration, keep meter clean, control testing conditions, enter correct code if required, store strips properly, and perform periodic control solution tests.",
+                "Best times to test: Fasting (morning), before meals, 2hrs after meals, bedtime, when symptoms occur, during illness, and more frequently when adjusting medications or during unusual activities.",
+                "Alternative site testing (palm, forearm) may be possible but note: results may differ from fingersticks, especially when glucose is changing rapidly. Consult your healthcare provider for guidance."
             ]
         },
         {
@@ -185,11 +394,26 @@
             "patterns": [
                 "Why is my glucometer not working?",
                 "My glucometer is showing an error. What should I do?",
-                "How do I fix my glucometer?"
+                "How do I fix my glucometer?",
+                "Glucose meter error codes",
+                "Glucometer not turning on",
+                "Test strip errors explained",
+                "Inaccurate glucose readings",
+                "How to clean glucose meter",
+                "Glucometer battery issues",
+                "When to replace glucose meter",
+                "Troubleshooting test strips",
+                "Blood sample size problems",
+                "Environmental factors affecting readings",
+                "How to verify glucometer accuracy",
+                "Maintaining glucose monitoring equipment"
             ],
             "responses": [
-                "Ensure test strips are not expired.",
-                "Clean the sensor and reinsert the strip."
+                "Common issues: Ensure strip is inserted correctly, blood sample is adequate, strips aren't expired, meter is clean, coding matches strips, batteries are fresh, and testing environment is appropriate.",
+                "For errors: Check manual for specific code meaning. Common fixes: clean meter, try new strip, ensure proper blood application, replace battery, or perform control solution test to verify function.",
+                "If readings seem off: Wash hands thoroughly (no residue), check strip storage (not exposed to humidity), verify meter calibration, compare with lab test, and consider environmental factors (altitude/temp).",
+                "Maintenance: Clean periodically per instructions, store properly, check battery, use control solution regularly, replace lancets frequently, and keep strips in original container with desiccant.",
+                "When to replace: If meter fails control tests, shows consistent errors, has physical damage, gives erratic readings, or is older than manufacturer recommendation (typically 4-5 years)."
             ]
         },
         {
@@ -198,11 +422,27 @@
                 "How does a pulse oximeter work?",
                 "Can you explain the working of a pulse oximeter?",
                 "What does a pulse oximeter do?",
-                "How is a pulse oximeter used in medicine?"
+                "How is a pulse oximeter used in medicine?",
+                "Principle of pulse oximetry",
+                "Science behind SpO2 measurement",
+                "Light absorption in oximetry",
+                "How probes measure oxygen saturation",
+                "Components of pulse oximeter",
+                "Photoplethysmography explained",
+                "Difference between SpO2 and SaO2",
+                "Accuracy factors in oximetry",
+                "Limitations of pulse oximeters",
+                "How pulse is detected",
+                "Clinical applications of oximetry"
             ],
             "responses": [
-                "A pulse oximeter measures blood oxygen levels.",
-                "It is primarily used to measures blood oxygen levels."
+                "Pulse oximeters work by shining two wavelengths of light (red and infrared) through tissue. Oxygenated vs deoxygenated hemoglobin absorb differently, allowing calculation of oxygen saturation (SpO2).",
+                "The device uses photoplethysmography - LEDs emit light through translucent tissue (usually finger), while a photodetector measures absorbed light to determine oxygen saturation and pulse rate.",
+                "Key components: Light emitters (660nm red, 940nm IR), photodetector, processor to analyze pulsatile flow, and display. It distinguishes arterial blood by detecting pulse-related light changes.",
+                "In medicine, oximeters noninvasively monitor oxygenation status, help assess respiratory conditions, monitor during procedures/sedation, and screen for sleep apnea or other hypoxic events.",
+                "The technology relies on Beer-Lambert law of light absorption. By comparing absorption at two wavelengths and analyzing pulsatile component, it calculates percent hemoglobin saturated with oxygen.",
+                "A pulse oximeter measures the oxygen level in your blood (SpO2) and your pulse rate.",
+                "Step 1: The device is clipped onto a finger, toe, or earlobe. Step 2: It shines red and infrared light through the skin. Oxygen-rich blood absorbs more infrared light, while oxygen-poor blood absorbs more red light. Step 3: The sensor detects how much light passes through the blood and calculates oxygen saturation. Step 4: The reading appears on the screen, showing SpO2 (%) and pulse rate (bpm). Step 5: A normal oxygen level is between *95-100%*, and low levels (below 90%) may indicate breathing problems or low oxygen supply in the body."
             ]
         },
         {
@@ -210,10 +450,26 @@
             "patterns": [
                 "How to use a pulse oximeter?",
                 "What's the correct way to use a pulse oximeter?",
-                "How can I operate a pulse oximeter?"
+                "How can I operate a pulse oximeter?",
+                "Proper finger placement for SpO2",
+                "Getting accurate pulse ox readings",
+                "Pulse oximeter usage guide",
+                "Preparing for oxygen saturation test",
+                "Best practices for oximetry",
+                "How to read pulse oximeter results",
+                "Finger requirements for oximeter",
+                "Nail polish and oximeters",
+                "Motion artifacts in pulse ox",
+                "How long to keep probe on",
+                "Alternative sites for oximetry",
+                "Interpreting pulse oximeter data"
             ],
             "responses": [
-                "Place on your fingertip and wait for the reading."
+                "To use: 1) Warm cold hands 2) Remove nail polish 3) Place on clean, dry finger 4) Keep hand still at heart level 5) Wait for stable reading 6) Record SpO2 and pulse rate 7) Note any symptoms.",
+                "For best results: Use middle/pointer finger, ensure proper fit (not too tight/loose), remain still during measurement, avoid bright light interference, and wait until readings stabilize (usually 10-30 sec).",
+                "Best practices: Check perfusion index (PI >1%), verify pulse waveform matches heart rate, avoid movement, remove artificial nails, warm cold extremities, and compare with clinical assessment when possible.",
+                "If readings seem low: Check probe placement, warm hands, try different finger, remove polish, remain still, ensure good circulation, and consider confirming with arterial blood gas if clinically indicated.",
+                "For continuous monitoring: Rotate fingers periodically to prevent pressure sores, check skin integrity, follow manufacturer's recommended wear time, and document trends rather than single readings."
             ]
         },
         {
@@ -221,11 +477,26 @@
             "patterns": [
                 "Why is my pulse oximeter not working?",
                 "My pulse oximeter is showing an error. What should I do?",
-                "How do I fix my pulse oximeter?"
+                "How do I fix my pulse oximeter?",
+                "Pulse ox error codes explained",
+                "No reading on oximeter",
+                "Inaccurate SpO2 measurements",
+                "Weak or no pulse signal",
+                "Pulse oximeter maintenance",
+                "How to clean pulse ox probe",
+                "Battery replacement for oximeter",
+                "When to replace pulse oximeter",
+                "Troubleshooting low readings",
+                "Environmental factors affecting SpO2",
+                "Motion artifact solutions",
+                "Validating oximeter accuracy"
             ],
             "responses": [
-                "Make sure your hands are warm.",
-                "Check the battery and clean the sensor."
+                "Common issues: Check battery, clean sensor, ensure proper finger placement, warm cold hands, remove nail polish, minimize movement, and avoid bright light interference on sensor.",
+                "For errors: Try different finger, ensure good circulation, check for adequate perfusion (PI), clean LED/photodetector area, replace batteries, and consult manual for specific error code meanings.",
+                "If no signal: Verify probe is connected, check for physical damage, test with different person, ensure finger completely covers sensors, and try in darker environment if sunlight interference suspected.",
+                "Maintenance: Clean regularly with alcohol wipe (avoid liquids entering device), store properly, check battery contacts, replace probe if damaged, and perform validation checks per manufacturer.",
+                "When readings seem off: Compare with known good device if possible, check against clinical signs, ensure proper use conditions, and consider professional calibration if consistently questionable results."
             ]
         },
         {
@@ -234,11 +505,27 @@
                 "How does a ECG machine work?",
                 "Can you explain the working of a ECG machine?",
                 "What does a ECG machine do?",
-                "How is a ECG machine used in medicine?"
+                "How is a ECG machine used in medicine?",
+                "Electrocardiography explained",
+                "Science behind ECG technology",
+                "Components of ECG system",
+                "How electrodes detect heart activity",
+                "Electrical conduction of heart",
+                "Different ECG lead systems",
+                "12-lead ECG principles",
+                "What ECG waveforms represent",
+                "Signal processing in ECG",
+                "Artifact recognition in ECGs",
+                "Clinical applications of ECG"
             ],
             "responses": [
-                "A ECG machine records electrical activity of the heart.",
-                "It is primarily used to records electrical activity of the heart."
+                "An ECG machine records the heart's electrical activity through electrodes placed on the skin. It amplifies and displays these tiny electrical signals as waveforms representing atrial/ventricular depolarization/repolarization.",
+                "The device works by detecting voltage differences between electrode pairs (leads) during each heartbeat. These signals are amplified, filtered, and displayed as the characteristic P-QRS-T complex on paper/screen.",
+                "Key components: Electrodes to detect signals, amplifiers to strengthen weak impulses, filters to remove noise, analog-to-digital converter, display/recorder, and analysis software in modern units.",
+                "In medicine, ECGs diagnose arrhythmias, ischemia, infarction, conduction abnormalities, electrolyte imbalances, and monitor cardiac status during procedures or medication administration.",
+                "The standard 12-lead ECG uses 10 electrodes to create 12 different electrical views of the heart, each providing unique information about different cardiac regions and electrical pathways.",
+                "An ECG (Electrocardiogram) machine records the electrical activity of the heart to check for irregularities.",
+                "Step 1: Small sticky electrodes are placed on the chest, arms, and legs. These detect electrical signals from the heart. Step 2: Wires connect the electrodes to the ECG machine, which records the heart’s electrical impulses. Step 3: The machine creates a graph (ECG waveform) showing the rhythm, rate, and strength of the heartbeats. Step 4: Doctors analyze the waveform to check for heart problems like arrhythmia, heart attacks, or irregular heartbeats. Step 5: The ECG is a painless and quick test that helps monitor heart health."
             ]
         },
         {
@@ -246,10 +533,26 @@
             "patterns": [
                 "How to use a ECG machine?",
                 "What's the correct way to use a ECG machine?",
-                "How can I operate a ECG machine?"
+                "How can I operate a ECG machine?",
+                "Preparing patient for ECG",
+                "Proper electrode placement",
+                "ECG lead attachment guide",
+                "Steps for performing ECG",
+                "Best practices for electrocardiography",
+                "Skin preparation for ECG",
+                "Troubleshooting poor ECG signals",
+                "Performing 12-lead ECG",
+                "Pediatric ECG considerations",
+                "Reducing artifacts in ECG",
+                "Interpreting ECG printouts",
+                "Safety precautions with ECG"
             ],
             "responses": [
-                "Attach the electrodes to the chest, start the machine, and analyze the graph."
+                "To perform ECG: 1) Prepare skin (shave if needed, clean with alcohol) 2) Apply electrodes to correct locations 3) Connect lead wires 4) Have patient lie still 5) Start recording 6) Verify quality 7) Label tracing.",
+                "Proper technique includes: Correct limb/chest lead placement, good skin contact (may need abrasive prep), patient relaxation to minimize artifact, proper gain/speed settings, and documentation of patient condition.",
+                "Electrode placement: RA/RL/LA/LL on limbs (avoid bony areas), V1-V6 in specific intercostal spaces. Consistent placement is crucial for accurate serial comparison of ECGs over time.",
+                "For quality tracings: Ensure no muscle tremor, proper lead connection, clean electrodes, stable environment (electrical interference-free), and patient in comfortable position (supine typically best).",
+                "Best practices: Check equipment daily, maintain proper supplies, follow standardized procedures, document any deviations, verify patient identity, and store tracings properly with correct patient information."
             ]
         },
         {
@@ -257,11 +560,26 @@
             "patterns": [
                 "Why is my ECG machine not working?",
                 "My ECG machine is showing an error. What should I do?",
-                "How do I fix my ECG machine?"
+                "How do I fix my ECG machine?",
+                "ECG error messages explained",
+                "Poor ECG signal quality",
+                "Artifacts in ECG tracing",
+                "Baseline wander issues",
+                "ECG electrode problems",
+                "Maintaining ECG equipment",
+                "How to clean ECG cables",
+                "ECG paper jam solutions",
+                "Battery issues with portable ECG",
+                "When to service ECG machine",
+                "Troubleshooting lead errors",
+                "Validating ECG accuracy"
             ],
             "responses": [
-                "Ensure electrodes are properly placed.",
-                "Check for loose connections."
+                "Common issues: Check electrode expiration/placement, skin preparation, cable connections, power source, paper supply (if paper model), and ensure no electrical interference from other devices nearby.",
+                "For artifacts: Verify patient is still, check for loose electrodes, ensure proper skin prep, rule out muscle tremor, eliminate electrical interference, and examine cables for damage.",
+                "If machine won't start: Verify power connection, check batteries in portable units, examine fuses, restart device, and contact service if hardware failure suspected after basic troubleshooting.",
+                "Maintenance: Clean regularly per guidelines, inspect cables for damage, store properly, replace consumables (electrodes, paper), perform routine calibration checks, and schedule professional servicing.",
+                "For consistent problems: Document error messages, note conditions when occurring, try different electrodes/cables, test with known good machine for comparison, and contact technical support with details."
             ]
         },
         {
@@ -270,11 +588,27 @@
                 "How does a ventilator work?",
                 "Can you explain the working of a ventilator?",
                 "What does a ventilator do?",
-                "How is a ventilator used in medicine?"
+                "How is a ventilator used in medicine?",
+                "Mechanical ventilation principles",
+                "Types of ventilators explained",
+                "Positive pressure ventilation",
+                "Ventilator modes overview",
+                "Components of ventilator system",
+                "Breath delivery mechanisms",
+                "ICU ventilator technology",
+                "Non-invasive ventilation systems",
+                "How ventilators assist breathing",
+                "Ventilator alarms explained",
+                "Weaning from mechanical ventilation"
             ],
             "responses": [
-                "A ventilator assists in breathing.",
-                "It is primarily used to assists in breathing."
+                "Ventilators work by delivering pressurized gas to the lungs through an airway interface (tube or mask). They can fully control breathing (control mode) or assist patient efforts (support modes) with precise oxygen and pressure settings.",
+                "The machine consists of: gas delivery system, controls for volume/pressure/rate, monitoring/alarms, humidifier, and circuits. It precisely mixes air/oxygen, measures flow/pressure, and cycles according to set parameters.",
+                "In medicine, ventilators maintain oxygenation/ventilation during surgery, respiratory failure, coma, or critical illness. They allow lung healing while minimizing injury from excessive pressures/volumes.",
+                "Modern ventilators offer multiple modes: Volume-controlled (set tidal volume), Pressure-controlled (set pressure), SIMV (combines spontaneous and mandatory breaths), and PSV (pressure support for spontaneous breaths).",
+                "Key functions include: delivering breaths, monitoring patient-ventilator interaction, providing alarms for unsafe conditions, humidifying gases, and collecting data on respiratory mechanics and gas exchange.",
+                "A ventilator is a life-support machine that helps people breathe when they cannot do so on their own.",
+                "Step 1: A tube is placed into the patient’s windpipe (intubation) or a mask is fitted over their face. Step 2: The ventilator pushes oxygen-rich air into the lungs and removes carbon dioxide. Step 3: Doctors adjust the settings based on the patient's needs, such as breath rate and oxygen levels. Step 4: Sensors in the ventilator monitor the patient’s breathing and alert doctors if there are issues. Step 5: Ventilators are used in ICUs for patients with respiratory failure, lung infections, or after surgeries."
             ]
         },
         {
@@ -282,10 +616,26 @@
             "patterns": [
                 "How to use a ventilator?",
                 "What's the correct way to use a ventilator?",
-                "How can I operate a ventilator?"
+                "How can I operate a ventilator?",
+                "Initial ventilator settings",
+                "Ventilator mode selection",
+                "Intubation procedure for ventilation",
+                "Non-invasive ventilation setup",
+                "Monitoring ventilated patients",
+                "Ventilator alarm management",
+                "Daily ventilator checks",
+                "Troubleshooting ventilation issues",
+                "Weaning protocol steps",
+                "Ventilator-associated pneumonia prevention",
+                "Pediatric ventilation considerations",
+                "Transport ventilator operation"
             ],
             "responses": [
-                "Connect the patient, adjust settings, and monitor oxygen levels."
+                "Ventilator operation requires specialized training. Basic steps: 1) Select appropriate mode/settings 2) Connect to patient airway 3) Verify proper placement 4) Initiate ventilation 5) Monitor continuously 6) Adjust based on ABGs/patient status.",
+                "Initial settings typically include: Mode (AC/PC/SIMV), Rate (12-20), FiO2 (start high, titrate down), Tidal Volume (6-8ml/kg ideal body weight), PEEP (5-10cmH2O), with adjustments based on blood gases and patient condition.",
+                "For non-invasive ventilation: Properly fit mask, start with lower pressures, gradually increase as tolerated, monitor for air leaks, check skin integrity regularly, and assess for need to transition to intubation.",
+                "Key monitoring includes: Oxygen saturation, end-tidal CO2, airway pressures, tidal volumes, respiratory rate, breath sounds, chest movement, and frequent assessment of sedation/comfort needs.",
+                "Safety practices: Daily spontaneous breathing trials when appropriate, head-of-bed elevation, oral care protocols, sedation vacations, cuff pressure monitoring, and regular ventilator circuit checks/changes."
             ]
         },
         {
@@ -293,11 +643,26 @@
             "patterns": [
                 "Why is my ventilator not working?",
                 "My ventilator is showing an error. What should I do?",
-                "How do I fix my ventilator?"
+                "How do I fix my ventilator?",
+                "Ventilator alarm troubleshooting",
+                "High pressure alarm causes",
+                "Low pressure alarm solutions",
+                "Ventilator disconnection issues",
+                "Maintaining ventilator equipment",
+                "Circuit condensation problems",
+                "Oxygen sensor failures",
+                "Power supply ventilator issues",
+                "When to replace ventilator circuits",
+                "Ventilator self-test procedures",
+                "Backup ventilation strategies",
+                "Emergency ventilator scenarios"
             ],
             "responses": [
-                "Check tube connections.",
-                "Ensure filters are clean."
+                "For alarms: First ensure patient is oxygenating/ventilating, then troubleshoot - High pressure: check for obstruction, biting, secretions; Low pressure: check for disconnection, leak; Apnea: verify patient effort/monitoring.",
+                "If ventilator fails: Immediately provide manual ventilation with bag-valve-mask, call for help, check power source/gas supply, attempt to identify/resolve error per protocols, and have backup ventilator available if possible.",
+                "Common fixes: Check all connections, verify gas supply, empty condensate from circuits, ensure proper humidifier function, replace clogged filters, and perform required calibration/maintenance per manufacturer schedule.",
+                "Preventive maintenance: Daily circuit checks, regular filter changes, scheduled sensor calibrations, battery tests, software updates, and documentation of all servicing according to facility policies.",
+                "For persistent issues: Document error codes, preserve device data if possible, contact biomedical engineering, follow facility protocols for equipment failure, and never attempt repairs beyond operator-level troubleshooting."
             ]
         },
         {
@@ -306,11 +671,27 @@
                 "How does a infusion pump work?",
                 "Can you explain the working of a infusion pump?",
                 "What does a infusion pump do?",
-                "How is a infusion pump used in medicine?"
+                "How is a infusion pump used in medicine?",
+                "IV pump mechanisms explained",
+                "Types of infusion pumps",
+                "Syringe pump technology",
+                "PCA pump functionality",
+                "Components of infusion systems",
+                "How pumps deliver precise doses",
+                "Infusion pump safety features",
+                "Smart pump technology",
+                "Large volume vs syringe pumps",
+                "Drug library concepts",
+                "Alarm systems in infusion pumps"
             ],
             "responses": [
-                "A infusion pump delivers fluids and medications.",
-                "It is primarily used to delivers fluids and medications."
+                "Infusion pumps deliver precise amounts of fluids/medications via controlled linear peristaltic action or syringe plunger movement. They use motors, sensors and microprocessors to ensure accurate delivery rates.",
+                "The device consists of: fluid pathway (tube/syringe), pumping mechanism, control interface, alarms, and often drug libraries. It precisely controls flow rate (ml/hr) and total volume with multiple safety checks.",
+                "In healthcare, infusion pumps administer IV fluids, medications (antibiotics, analgesics, vasopressors), parenteral nutrition, and chemotherapy with greater accuracy than gravity flow, especially for critical/high-risk drugs.",
+                "Modern 'smart' pumps include dose error reduction systems (DERS) with drug libraries that alert when programmed parameters exceed safe limits, helping prevent medication errors.",
+                "Types include: Large volume (for fluids/nutrition), syringe (for small precise doses), PCA (patient-controlled analgesia), insulin, and enteral pumps - each optimized for specific delivery requirements and safety needs.",
+                "An infusion pump is a device that delivers fluids, medication, or nutrients directly into a patient’s bloodstream.",
+                "Step 1: A tube is connected from a medicine-filled bag to the patient’s vein through an IV catheter. Step 2: The infusion pump controls the flow rate, ensuring the patient receives the right amount of medication or fluids. Step 3: The pump continuously delivers the medicine at a programmed speed, preventing overdose or underdose. Step 4: Alarms alert medical staff if there are issues like low fluid levels or blockages in the tubing. Step 5: Infusion pumps are used for chemotherapy, pain management, IV fluids, and antibiotics."
             ]
         },
         {
@@ -318,10 +699,26 @@
             "patterns": [
                 "How to use a infusion pump?",
                 "What's the correct way to use a infusion pump?",
-                "How can I operate a infusion pump?"
+                "How can I operate a infusion pump?",
+                "Programming infusion pumps",
+                "Priming IV tubing steps",
+                "Loading syringe pump properly",
+                "Setting infusion parameters",
+                "Best practices for IV therapy",
+                "Changing infusion pump bags",
+                "Troubleshooting flow issues",
+                "PCA pump setup guide",
+                "Maintaining infusion systems",
+                "Double-checking pump settings",
+                "Documenting infusion therapy",
+                "Safety checks for high-alert medications"
             ],
             "responses": [
-                "Set the infusion rate, connect the IV, and start the pump."
+                "To use: 1) Select correct medication/channel 2) Prime tubing 3) Load properly 4) Program dose/rate/volume 5) Verify against order 6) Start infusion 7) Monitor site/patient 8) Respond to alarms promptly 9) Document appropriately.",
+                "Proper technique includes: Using correct tubing type, ensuring no air in line, verifying pump is level, checking compatibility when multiple infusions, labeling lines clearly, and securing connections to prevent dislodgement.",
+                "For safety: Always double-check settings with another clinician for high-risk medications, use drug libraries when available, scan barcodes if system allows, and monitor frequently for infiltration or occlusion.",
+                "When changing bags: Pause pump, close roller clamp, replace bag, spike new container, purge air if needed, restart at correct rate, and document time/amount remaining from previous bag.",
+                "Best practices: Inspect solution before use, maintain sterile technique, change tubing per protocol (typically 96hrs), rotate sites periodically, and assess patient response to therapy regularly."
             ]
         },
         {
@@ -329,11 +726,26 @@
             "patterns": [
                 "Why is my infusion pump not working?",
                 "My infusion pump is showing an error. What should I do?",
-                "How do I fix my infusion pump?"
+                "How do I fix my infusion pump?",
+                "Infusion pump alarm meanings",
+                "Occlusion alarm solutions",
+                "Air-in-line errors",
+                "Door open alerts on pumps",
+                "Battery issues with infusion pumps",
+                "Maintenance of IV pumps",
+                "When to replace pump tubing",
+                "Troubleshooting inaccurate rates",
+                "Pump calibration requirements",
+                "Software update procedures",
+                "Disinfection of infusion pumps",
+                "Preventing pump programming errors"
             ],
             "responses": [
-                "Check if the IV line is blocked.",
-                "Ensure the correct dosage is set."
+                "Common alarms: Occlusion - check for kinks, clamps, infiltration; Air-in-line - remove air, possibly replace tubing; Low battery - connect to power; Door open - ensure proper loading; Empty - replace bag/chamber.",
+                "For errors: First address patient safety (manual control if needed), then follow prompts, check tubing loading, verify no obstructions, restart if appropriate, and contact biomedical if problem persists.",
+                "If pump seems inaccurate: Check calibration status, ensure correct tubing type is selected in settings, verify against gravity flow rate, compare with another pump, and remove/reload administration set.",
+                "Maintenance: Clean per facility policy (usually between patients), inspect for damage, test battery life, update software when available, and document all servicing according to manufacturer guidelines.",
+                "To prevent errors: Use barcode scanning when possible, implement independent double-checks, maintain current drug libraries, provide ongoing staff training, and report all near-misses or actual errors."
             ]
         },
         {
@@ -342,11 +754,27 @@
                 "How does a defibrillator work?",
                 "Can you explain the working of a defibrillator?",
                 "What does a defibrillator do?",
-                "How is a defibrillator used in medicine?"
+                "How is a defibrillator used in medicine?",
+                "Principles of defibrillation",
+                "AED vs manual defibrillators",
+                "Biphasic waveform technology",
+                "Components of defibrillator systems",
+                "How shocks restore rhythm",
+                "Defibrillator energy settings",
+                "Cardioversion explained",
+                "Pacing function in defibrillators",
+                "ECG analysis in AEDs",
+                "Safety features of defibrillators",
+                "Public access defibrillation"
             ],
             "responses": [
-                "A defibrillator delivers an electric shock to restore heart rhythm.",
-                "It is primarily used to delivers an electric shock to restore heart rhythm."
+                "Defibrillators deliver controlled electric shocks to the heart to terminate lethal arrhythmias (VF/VT). They depolarize myocardial cells simultaneously, allowing the sinoatrial node to resume normal pacemaker function.",
+                "The device consists of: energy source (battery), capacitor to store/deliver charge, electrodes/pads, ECG monitoring, and controls. Modern units use biphasic waveforms that are more effective with less energy than older monophasic shocks.",
+                "In medicine, defibrillators treat ventricular fibrillation and pulseless ventricular tachycardia during cardiac arrest. They're also used for synchronized cardioversion of other unstable tachyarrhythmias.",
+                "AEDs (automated external defibrillators) analyze heart rhythm automatically and guide lay rescuers through shock delivery if indicated, while manual defibrillators require clinician interpretation of rhythms.",
+                "Key components: Energy selection (joules), charge button, discharge buttons, ECG display, recording capability, and often integrated CPR feedback technology to optimize chest compressions.",
+                "A defibrillator is a device that delivers an electric shock to restart or correct a heartbeat in case of cardiac arrest.",
+                "Step 1: Electrodes (pads) are placed on the patient’s chest to detect the heart’s rhythm. Step 2: If an abnormal rhythm is detected, the defibrillator decides whether a shock is needed. Step 3: The machine sends a controlled electrical shock to the heart to restore normal rhythm. Step 4: Automated External Defibrillators (AEDs) give voice instructions, guiding untrained users in emergency situations. Step 5: Defibrillators are used in hospitals, ambulances, and public places to save lives during sudden cardiac arrest."
             ]
         },
         {
@@ -354,10 +782,26 @@
             "patterns": [
                 "How to use a defibrillator?",
                 "What's the correct way to use a defibrillator?",
-                "How can I operate a defibrillator?"
+                "How can I operate a defibrillator?",
+                "AED usage steps",
+                "Manual defibrillation procedure",
+                "Pad placement for defibrillation",
+                "Energy selection guidelines",
+                "Synchronized cardioversion how-to",
+                "Safety during defibrillation",
+                "Performing defibrillation in code blue",
+                "Pediatric defibrillation considerations",
+                "Special situations in defibrillation",
+                "Post-shock procedures",
+                "Defibrillator maintenance checks",
+                "Training requirements for defibrillation"
             ],
             "responses": [
-                "Place paddles on the chest, analyze rhythm, and deliver shock if necessary."
+                "For AED use: 1) Power on 2) Attach pads 3) Analyze rhythm (don't touch patient) 4) Follow prompts - shock advised: clear patient and deliver shock; no shock: resume CPR immediately.",
+                "Manual defibrillation: 1) Confirm VF/pulseless VT 2) Charge to appropriate energy 3) Clear all personnel ('I'm clear, you're clear, everybody clear') 4) Deliver shock 5) Immediately resume CPR.",
+                "Pad placement: Anterolateral - right infraclavicular and left lateral midaxillary line; Anteroposterior - anterior precordium and left/infra scapular. Ensure good contact, avoid medication patches, and shave if needed.",
+                "Energy settings: Biphasic - follow manufacturer recommendation (typically 120-200J); Monophasic - 360J; Pediatric - 2-4J/kg. For synchronized cardioversion: Start lower (50-100J) for unstable SVT/Afib.",
+                "Safety: Ensure no one touching patient or conductive surfaces during shock, verify oxygen flow isn't crossing chest, dry chest if wet (avoid pools), and don't defibrillate during asystole/PEA."
             ]
         },
         {
@@ -365,11 +809,26 @@
             "patterns": [
                 "Why is my defibrillator not working?",
                 "My defibrillator is showing an error. What should I do?",
-                "How do I fix my defibrillator?"
+                "How do I fix my defibrillator?",
+                "Defibrillator alarm messages",
+                "No shock advised scenarios",
+                "Pad contact issues",
+                "Battery problems in defibrillators",
+                "Maintaining defibrillator equipment",
+                "Daily defibrillator checks",
+                "When to replace defibrillator pads",
+                "Troubleshooting ECG artifacts",
+                "Defibrillator self-test procedures",
+                "Post-use cleaning protocols",
+                "Storage conditions for AEDs",
+                "Validating defibrillator readiness"
             ],
             "responses": [
-                "Ensure the battery is charged.",
-                "Check for proper pad placement."
+                "Common issues: Check battery charge, ensure pads are properly connected/not expired, verify no damage to cables, perform self-test per manufacturer, and contact biomedical engineering if problems persist.",
+                "If 'no shock advised' during arrest: Verify proper pad placement, check for motion artifact, ensure good contact, wipe excessive chest hair/sweat, and continue high-quality CPR while reassessing rhythm.",
+                "For maintenance: Perform daily/weekly checks per facility policy, test batteries regularly, inspect pads/cables for damage, keep unit clean/dry, and document all testing and maintenance activities.",
+                "If device fails during code: Immediately switch to backup defibrillator if available, continue manual CPR, use traditional paddles if present, and follow basic life support protocols until replacement arrives.",
+                "Preventive measures: Regular staff training, scheduled equipment checks, immediate replacement of used/expired components, proper storage conditions, and participation in manufacturer update programs."
             ]
         },
         {
@@ -378,11 +837,27 @@
                 "How does a nebulizer work?",
                 "Can you explain the working of a nebulizer?",
                 "What does a nebulizer do?",
-                "How is a nebulizer used in medicine?"
+                "How is a nebulizer used in medicine?",
+                "Nebulizer vs inhaler differences",
+                "Types of nebulizers explained",
+                "Ultrasonic nebulizer technology",
+                "Mesh nebulizer mechanisms",
+                "Components of nebulizer systems",
+                "How medication is aerosolized",
+                "Particle size in nebulization",
+                "Nebulizer treatment duration",
+                "Cleaning nebulizer equipment",
+                "Portable nebulizer options",
+                "Pediatric nebulizer considerations"
             ],
             "responses": [
-                "A nebulizer delivers medication as mist.",
-                "It is primarily used to delivers medication as mist."
+                "Nebulizers convert liquid medication into fine aerosol mist for inhalation. Jet nebulizers use compressed air to create mist, ultrasonic models use high-frequency vibrations, and mesh nebulizers push liquid through tiny holes.",
+                "The device consists of: medication cup, air compressor (for jet type), mouthpiece/mask, and tubing. It breaks medication into respirable particles (typically 1-5 microns) that can reach lower airways effectively.",
+                "In respiratory care, nebulizers deliver bronchodilators, corticosteroids, antibiotics, and other medications directly to lungs, especially useful for patients who can't use inhalers properly (young children, elderly, severe attacks).",
+                "Compared to inhalers: Nebulizers require no coordination, deliver higher doses over longer periods (5-15min), but are less portable and require proper cleaning/maintenance to prevent bacterial contamination.",
+                "Modern advancements include: Vibrating mesh technology (quieter, more efficient), portable battery-powered units, and smart nebulizers that track usage and sync with apps for better asthma/COPD management.",
+                "A nebulizer is a device that turns liquid medicine into a mist so it can be inhaled into the lungs.",
+                "Step 1: Liquid medicine is placed into the nebulizer's medicine cup. Step 2: The machine uses air or ultrasonic vibrations to convert the liquid into a fine mist. Step 3: The patient breathes in the mist through a mouthpiece or mask, allowing the medicine to reach the lungs quickly. Step 4: The treatment usually lasts about 5-10 minutes, during which the patient breathes normally. Step 5: Nebulizers are commonly used for asthma, COPD, and other respiratory conditions to provide fast relief."
             ]
         },
         {
@@ -390,10 +865,26 @@
             "patterns": [
                 "How to use a nebulizer?",
                 "What's the correct way to use a nebulizer?",
-                "How can I operate a nebulizer?"
+                "How can I operate a nebulizer?",
+                "Preparing nebulizer treatment",
+                "Proper medication dosing for nebulizers",
+                "Mouthpiece vs mask usage",
+                "Cleaning nebulizer instructions",
+                "Best practices for nebulization",
+                "Nebulizer treatment duration",
+                "Positioning during nebulizer use",
+                "Pediatric nebulizer techniques",
+                "Traveling with nebulizers",
+                "Storing nebulizer medications",
+                "Troubleshooting poor mist output",
+                "When to replace nebulizer parts"
             ],
             "responses": [
-                "Fill with medication, turn it on, and inhale the mist through a mask."
+                "To use: 1) Wash hands 2) Add prescribed medication to cup 3) Assemble mouthpiece/mask and connect to compressor 4) Turn on unit 5) Breathe normally until medication is gone (no mist) 6) Clean after each use.",
+                "Proper technique: Sit upright, use mouthpiece if possible (or tight-fitting mask), breathe normally through mouth (some deep breaths if able), tap sides if medication collects, and continue until sputtering occurs.",
+                "For children: Use properly sized mask, consider distraction techniques, ensure good seal (watch for leaks), possibly use while sleeping, and never force if causing significant distress - consult provider for alternatives.",
+                "Cleaning: After each use - rinse with sterile water, air dry; Daily - wash with mild soap/water, rinse thoroughly; Weekly - disinfect per manufacturer (often vinegar solution or boiling parts for 5 mins).",
+                "Best practices: Use fresh medication each time (don't mix doses), don't reuse leftover solution, ensure proper compressor flow (6-8L/min typically), replace parts every 3-6 months, and store equipment dry."
             ]
         },
         {
@@ -401,11 +892,26 @@
             "patterns": [
                 "Why is my nebulizer not working?",
                 "My nebulizer is showing an error. What should I do?",
-                "How do I fix my nebulizer?"
+                "How do I fix my nebulizer?",
+                "Nebulizer not producing mist",
+                "Weak nebulizer output",
+                "Nebulizer compressor problems",
+                "Maintaining nebulizer equipment",
+                "When to replace nebulizer parts",
+                "Troubleshooting noisy nebulizers",
+                "Nebulizer medication not aerosolizing",
+                "Battery issues with portable nebulizers",
+                "Cleaning mineral deposits",
+                "Nebulizer tubing problems",
+                "Preventing nebulizer contamination",
+                "Validating nebulizer performance"
             ],
             "responses": [
-                "Check if the medicine chamber is filled.",
-                "Ensure proper air pressure flow."
+                "If no mist: Check compressor is on/plugged in, verify tubing is connected properly, ensure medication cup is assembled correctly, examine for cracks/clogs, and test with water to confirm function.",
+                "For weak output: Clean/replace air filter, check for obstructions in medication cup, ensure proper compressor pressure (may need servicing), replace old parts (especially baffles/mesh in newer models).",
+                "Common fixes: Clean mineral deposits with vinegar solution, replace worn tubing, ensure proper medication volume (typically 3-5ml), check battery in portable units, and verify no leaks in system.",
+                "Maintenance: Replace filters per schedule, inspect for damage regularly, store properly when traveling, follow cleaning protocol strictly, and consider professional servicing if performance declines.",
+                "If problems persist: Try different medication batch (in case of compatibility issues), test with another nebulizer if available, consult manufacturer guidelines, and replace unit if older than recommended lifespan."
             ]
         }
     ]

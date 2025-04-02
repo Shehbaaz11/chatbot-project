@@ -5,6 +5,7 @@ import json
 import numpy as np
 from model import NeuralNet
 from nltk_utils import bag_of_words, tokenize
+import random
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for debugging
@@ -42,7 +43,7 @@ def chat():
         X = bag_of_words(sentence, data["all_words"])
 
         if np.sum(X) == 0:
-            return jsonify({"bot": "I'm not sure I understand."})
+            return jsonify({"bot": "I'm not sure I understand.", "video_embed": None})
 
         X = torch.from_numpy(X).float().unsqueeze(0).to(device)  # Ensure correct shape
 
@@ -51,14 +52,17 @@ def chat():
         _, predicted = torch.max(output, dim=1)  # Use dim=1 for batch processing
 
         tag = data["tags"][predicted.item()]
-
         response_text = "Sorry, I didn't understand."
+        video_embed = None  # Default value
 
+        # Find the correct intent and check for video_embed
         for intent in intents["intents"]:
             if tag == intent["tag"]:
                 response_text = intent["responses"][0]  # Pick the first response
+                response_text = random.choice(intent["responses"])
+                video_embed = intent.get("video_embed", None)  # 🔥 NEW: Get video embed
 
-        return jsonify({"bot": response_text})
+        return jsonify({"bot": response_text, "video_embed": video_embed})
 
     except Exception as e:
         print(f"Error: {e}")  # Print error for debugging

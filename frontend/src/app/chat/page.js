@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect } from "react";
-const axios = require('axios');
 
 const Chatbot = () => {
   const [messages, setMessages] = useState([]);
@@ -37,24 +36,35 @@ const Chatbot = () => {
       }
 
       const data = await response.json();
-      const botMessage = { sender: "bot", text: data.bot };
+
+      // Support video embeds
+      const botMessage = {
+        sender: "bot",
+        text: data.bot,
+        video_embed: data.video_embed || null, // Include video if available
+      };
 
       setMessages((prevMessages) => [...prevMessages, botMessage]); // Update chat history
     } catch (error) {
       console.error("Error:", error);
-      setMessages((prevMessages) => [...prevMessages, { sender: "bot", text: "Error connecting to server." }]);
+      setMessages((prevMessages) => [
+        ...prevMessages,
+        { sender: "bot", text: "Error connecting to server." },
+      ]);
     }
 
     setInput(""); // Clear input field after sending
   };
 
   const startSpeechRecognition = () => {
-    if (typeof window === "undefined") return; // Ensure it runs only in the browser
-    
+    if (typeof window === "undefined") return;
+
     const SpeechRecognition =
       window.SpeechRecognition || window.webkitSpeechRecognition;
     if (!SpeechRecognition) {
-      alert("Your browser does not support Speech Recognition. Please use Google Chrome.");
+      alert(
+        "Your browser does not support Speech Recognition. Please use Google Chrome."
+      );
       return;
     }
 
@@ -70,22 +80,30 @@ const Chatbot = () => {
     recognition.start();
   };
 
-  if (!isMounted) return null; // Prevent hydration mismatch
+  if (!isMounted) return null;
 
   return (
     <div className="chat-container">
-      <button className="menu-btn" onClick={toggleSidebar}>☰ Open Chat History</button>
+      <button className="menu-btn" onClick={toggleSidebar}>
+        ☰ Open Chat History
+      </button>
 
       <div className={`sidebar ${isSidebarOpen ? "open" : ""}`}>
         <div className="sidebar-header">
           <h2>Chat History</h2>
-          <button className="close-sidebar" onClick={toggleSidebar}>❌</button>
+          <button className="close-sidebar" onClick={toggleSidebar}>
+            ❌
+          </button>
         </div>
         <ul>
           {messages.length > 0 ? (
             messages.map((msg, index) => (
-              <li key={index} style={{ textAlign: msg.sender === "user" ? "right" : "left" }}>
-                <strong>{msg.sender === "user" ? "You" : "Bot"}:</strong> {msg.text}
+              <li
+                key={index}
+                style={{ textAlign: msg.sender === "user" ? "right" : "left" }}
+              >
+                <strong>{msg.sender === "user" ? "You" : "Bot"}:</strong>{" "}
+                {msg.text}
               </li>
             ))
           ) : (
@@ -100,12 +118,23 @@ const Chatbot = () => {
           {messages.map((msg, index) => (
             <div
               key={index}
-              className={msg.sender === "user" ? "message user-message" : "message bot-message"}
+              className={
+                msg.sender === "user"
+                  ? "message user-message"
+                  : "message bot-message"
+              }
             >
-              {msg.text}
+              <p>{msg.text}</p>
+              {msg.video_embed && (
+                <div
+                  className="video-container"
+                  dangerouslySetInnerHTML={{ __html: msg.video_embed }}
+                />
+              )}
             </div>
           ))}
         </div>
+
         <div className="input-container">
           <input
             type="text"
@@ -114,8 +143,12 @@ const Chatbot = () => {
             onKeyDown={(e) => e.key === "Enter" && sendMessage()}
             placeholder="Ask a medical question..."
           />
-          <button className="mic-btn" onClick={startSpeechRecognition}>🎤</button>
-          <button className="send-btn" onClick={sendMessage}>Send</button>
+          <button className="mic-btn" onClick={startSpeechRecognition}>
+            🎤
+          </button>
+          <button className="send-btn" onClick={sendMessage}>
+            Send
+          </button>
         </div>
       </div>
     </div>
