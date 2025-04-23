@@ -4,14 +4,14 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
+
   body {
     background: #121212;
     color: white;
     font-family: Arial, sans-serif;
   }
-  
-  
+
+
   /* Chat Header */
   .chat-header {
     font-size: 32px; /* Increased size */
@@ -23,16 +23,16 @@
     justify-content: center;
     gap: 10px; /* Space between icon and text */
   }
-  
+
   /* Stethoscope Icon */
   .chat-header::before {
     content: "🩺"; /* Doctor's stethoscope icon */
     font-size: 36px; /* Adjusted size */
   }
-  
-  
-  
-  
+
+
+
+
   /* Chat Container */
   .chat-container {
     display: flex;
@@ -41,7 +41,7 @@
     background: #1e1e1e;
     overflow: hidden;
   }
-  
+
   /* Sidebar */
   .sidebar {
     width: 300px;
@@ -55,18 +55,18 @@
     transition: left 0.3s ease-in-out;
     box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3);
   }
-  
+
   .sidebar.open {
     left: -10px;
   }
-  
+
   /* Sidebar Header */
   .sidebar-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  
+
   .close-sidebar {
     background: red;
     color: white;
@@ -76,11 +76,11 @@
     padding: 5px 10px;
     border-radius: 5px;
   }
-  
+
   .close-sidebar:hover {
     background: darkred;
   }
-  
+
   /* Sidebar Content */
   .sidebar-heading {
     font-size: 22px;
@@ -89,11 +89,11 @@
     border-bottom: 2px solid white;
     padding-bottom: 5px;
   }
-  
+
   .sidebar ul {
     list-style-type: none;
   }
-  
+
   .sidebar ul li {
     padding: 10px;
     background: #333;
@@ -101,11 +101,11 @@
     border-radius: 5px;
     cursor: pointer;
   }
-  
+
   .sidebar ul li:hover {
     background: #444;
   }
-  
+
   /* Sidebar Toggle Button */
   .menu-btn {
     position: absolute;
@@ -119,11 +119,40 @@
     cursor: pointer;
     border-radius: 5px;
   }
-  
+
   .menu-btn:hover {
     background: #666;
   }
-  
+
+  /* Login/Logout Buttons */
+  .logout-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #ff3860;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    z-index: 100;
+  }
+
+  .logout-btn:hover {
+    background: #e00;
+  }
+
+  /* User info */
+  .user-info {
+    position: absolute;
+    top: 20px;
+    right: 120px;
+    color: white;
+    font-size: 14px;
+    z-index: 100;
+  }
+
   /* Chat Content */
   .chat-content {
     flex: 1;
@@ -133,7 +162,7 @@
     flex-direction: column;
     align-items: center;
   }
-  
+
   /* Chat Box - Increased Size */
   .chat-box {
     width: 90%;
@@ -166,7 +195,7 @@
     margin-left: auto; /* Moves the message to the right */
     width: fit-content;
   }
-  
+
   /* Bot messages - Positioned on the left side */
   .bot-message {
     background: #444; /* Grey for bot messages */
@@ -175,8 +204,8 @@
     margin-right: auto; /* Moves the message to the left */
     width: fit-content;
   }
-  
-  
+
+
   /* Input Box - Enlarged */
   .input-container {
     width: 90%;
@@ -184,7 +213,7 @@
     display: flex;
     margin-top: 15px;
   }
-  
+
   .input-container input {
     flex: 1;
     padding: 15px;
@@ -194,7 +223,7 @@
     font-size: 16px;
     border-radius: 5px;
   }
-  
+
   /* Buttons */
   .send-btn, .mic-btn {
     font-size: 20px;
@@ -207,8 +236,7 @@
     border-radius: 5px;
     transition: 0.3s;
   }
-  
+
   .send-btn:hover, .mic-btn:hover {
     background: #ccc;
   }
-  

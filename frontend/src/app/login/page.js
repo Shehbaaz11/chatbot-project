@@ -1,33 +1,75 @@
 "use client";
 import React, { useState } from "react";
-import { EyeIcon, EyeClosedIcon, EyeOffIcon } from "lucide-react";
+import { EyeIcon, EyeOffIcon } from "lucide-react";
 import { useRouter } from "next/navigation";
-const axios = require('axios');
+import axios from 'axios';
 function page() {
   const router = useRouter();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [visible, setVisible] = useState(false);
+  const [error, setError] = useState('');
   const toggleVisibility = () => {
     setVisible(!visible);
   }
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setError(''); // Clear previous errors
 
-    try{
+    // Basic validation
+    if (password.length < 6) {
+      setError('Password must be at least 6 characters long');
+      return;
+    }
+
+    try {
       const loggedUser = {
-        email: email,
+        email: email.trim().toLowerCase(),
         password: password
       }
-      const response = await axios.post("http://127.0.0.1:8282/users/login", loggedUser)
 
-      if(response.status == 200){
+      console.log('Sending login request to:', 'http://127.0.0.1:8282/users/login');
+      const response = await axios.post("http://127.0.0.1:8282/users/login", loggedUser);
+
+      if(response.status === 200){
         const data = response.data;
+        console.log('Login successful:', data.message);
+
+        // Save user data to localStorage
+        localStorage.setItem('userId', data.userId);
+        localStorage.setItem('username', data.username);
+        localStorage.setItem('email', data.email);
+        localStorage.setItem('token', data.token);
+
+        // Redirect to chat page
         router.push('/chat');
       }
     }
     catch(err){
-      console.log(err);
+      console.error("Login error:", err);
+
+      if (err.response) {
+        // The request was made and the server responded with a status code
+        // that falls out of the range of 2xx
+        console.error("Response data:", err.response.data);
+        console.error("Response status:", err.response.status);
+
+        if (err.response.data.message) {
+          setError(err.response.data.message);
+        } else if (err.response.data.errors && err.response.data.errors.length > 0) {
+          setError(err.response.data.errors[0].msg);
+        } else {
+          setError('Login failed. Please check your credentials.');
+        }
+      } else if (err.request) {
+        // The request was made but no response was received
+        console.error("Request:", err.request);
+        setError('No response from server. Please check your connection.');
+      } else {
+        // Something happened in setting up the request that triggered an Error
+        console.error("Error message:", err.message);
+        setError('An error occurred. Please try again.');
+      }
     }
   }
   return (
@@ -46,7 +88,7 @@ function page() {
             <div className="flex flex-col gap-2">
               <h2 className="text-sm ml-4">Enter your password</h2>
               <input required value={password} onChange={(e) => setPassword(e.target.value)} type ={visible ? "text" : "password"} placeholder="Password" className="px-6 py-3 rounded-3xl text-gray-900 min-w-80" />
-              {visible ? 
+              {visible ?
                 <EyeOffIcon onClick={() => toggleVisibility()} className="absolute mt-10 ml-72 pr-1 text-black hover:cursor-pointer"/>
                 : <EyeIcon onClick={() => toggleVisibility()} className="absolute mt-10 ml-72 pr-1 text-black hover:cursor-pointer"/>
             }

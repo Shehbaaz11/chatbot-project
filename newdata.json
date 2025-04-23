@@ -359,7 +359,7 @@
                 "In diabetes management, glucometers enable self-monitoring of blood glucose (SMBG), helping patients adjust diet, exercise and medication while providing data for healthcare providers to optimize treatment.",
                 "Systems include: lancing device to obtain blood, test strips with chemical reagents, meter to read results, and often connectivity to track trends. Newer models offer Bluetooth and app integration.",
                 "Step 1: A small *test strip* is inserted into the glucometer. Step 2: The user pricks their finger with a *lancet* (tiny needle) to get a small drop of blood. Step 3: The blood is placed on the test strip, which contains chemicals that react with glucose (sugar). Step 4: The glucometer reads the reaction and calculates the blood sugar level in mg/dL or mmol/L. Step 5: The result appears on the screen in seconds, helping users monitor their sugar levels to manage diabetes effectively."
-    
+
             ]
         },
         {
@@ -443,7 +443,8 @@
                 "The technology relies on Beer-Lambert law of light absorption. By comparing absorption at two wavelengths and analyzing pulsatile component, it calculates percent hemoglobin saturated with oxygen.",
                 "A pulse oximeter measures the oxygen level in your blood (SpO2) and your pulse rate.",
                 "Step 1: The device is clipped onto a finger, toe, or earlobe. Step 2: It shines red and infrared light through the skin. Oxygen-rich blood absorbs more infrared light, while oxygen-poor blood absorbs more red light. Step 3: The sensor detects how much light passes through the blood and calculates oxygen saturation. Step 4: The reading appears on the screen, showing SpO2 (%) and pulse rate (bpm). Step 5: A normal oxygen level is between *95-100%*, and low levels (below 90%) may indicate breathing problems or low oxygen supply in the body."
-            ]
+            ],
+            "video_embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/YsZHfuYxPuI' frameborder='0' allowfullscreen></iframe>"
         },
         {
             "tag": "pulse oximeter_use",
