@@ -95,8 +95,12 @@ Medexa is an AI-powered chatbot designed to provide information about medical de
    ```
 
 5. Open your browser and navigate to `http://localhost:3000`
+<<<<<<< HEAD
 
 ## Usage
+=======
+ Usage
+>>>>>>> 9f86634aecd312762b381de48b4f3d183051146c
 
 - **Guest Mode**: Click "Start Chat as Guest" to use the chatbot without logging in
 - **Register**: Create an account to save your chat history
