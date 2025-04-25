@@ -1,10 +1,8 @@
 "use client";
-import Link from "next/link";
 import { useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 export default function Home() {
-  const router = useRouter();
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [username, setUsername] = useState("");
 
@@ -42,8 +40,12 @@ export default function Home() {
               <p className="text-green-400">Hello, {username}!</p>
             )}
           </div>
-          <div className="w-32 h-32 rounded-full bg-blue-500 flex items-center justify-center">
-            <span className="text-4xl font-bold">M</span>
+          <div className="w-32 h-32 overflow-hidden">
+            <img
+              src="/logo.png"
+              alt="Medexa Logo"
+              className="w-full h-full object-contain"
+            />
           </div>
         </div>
 
@@ -102,7 +104,7 @@ export default function Home() {
         </div>
 
         <div className="mt-8 text-center text-gray-400 text-sm">
-          <p>© 2023 Medexa. All rights reserved.</p>
+          <p>AI-generated, for reference only</p>
         </div>
       </div>
     </div>

@@ -62,6 +62,7 @@ module.exports.loginUser = async (req, res, next) => {
 
     // Log the login attempt for debugging
     console.log('Login attempt:', { email, password: password ? '****' : undefined });
+    console.log('Request body:', req.body);
 
     try {
         // Check for validation errors from express-validator

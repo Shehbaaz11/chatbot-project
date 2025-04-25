@@ -140,6 +140,33 @@
             "video_embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/5Mb_O79Gh4o' frameborder='0' allowfullscreen></iframe>"
         },
         {
+            "tag": "stethoscope_use_steps",
+            "patterns": [
+              "What are the steps to use a stethoscope?",
+              "Give me a detailed procedure to use a stethoscope",
+              "Step-by-step guide for using a stethoscope",
+              "Tell me the correct steps to operate a stethoscope",
+              "How to use a stethoscope stepwise?",
+              "Detailed instructions for using stethoscope",
+              "Explain the process of using a stethoscope",
+              "I want to know all the steps of using a stethoscope",
+              "Proper usage steps of a stethoscope",
+              "Stethoscope usage procedure"
+            ],
+            "responses": [
+              "Here are the steps to use a stethoscope: 1) Insert the earpieces into your ears with the tips facing slightly forward. 2) Ensure a snug fit so outside noise is minimized. 3) Warm the diaphragm by rubbing it gently with your hand. 4) Place the chestpiece (diaphragm or bell) directly on the patient's skin. 5) Listen to heart, lung, or bowel sounds depending on placement. 6) Move systematically across the chest or back for comparison. 7) Adjust pressure: use light pressure for bell and firm pressure for diaphragm. 8) Clean the chestpiece after use with alcohol swab.",
+              
+              "Step-by-step procedure to use a stethoscope: 1) Position the earpieces so they point forward in the direction of your nose. 2) Hold the chestpiece between your index and middle fingers, not your palm. 3) Tap lightly on the diaphragm to check sound conduction. 4) Place it on the patient's chest, back, or abdomen as needed. 5) Instruct the patient to breathe normally or hold breath when required. 6) Listen carefully and compare left and right sides. 7) Move the chestpiece through different auscultation zones systematically. 8) After examination, clean your stethoscope properly.",
+              
+              "Follow these steps: 1) Insert earpieces into ears pointing forward. 2) Select the diaphragm or bell based on what sound you want to hear. 3) Place the chestpiece on bare skin (not over clothing). 4) Ask the patient to sit, lie down, or breathe as needed. 5) Listen to one full respiratory or cardiac cycle in each spot. 6) Move to the next area and repeat. 7) Always sanitize your stethoscope between uses.",
+              
+              "To properly use a stethoscope: 1) Wear the earpieces with a snug and forward-facing fit. 2) Hold the chestpiece gently to avoid extra noise. 3) Warm the chestpiece if needed. 4) Place it on the desired area: chest, back, or abdomen. 5) Use the diaphragm for high-pitched sounds like lungs and normal heartbeats. 6) Use the bell for low-pitched sounds like murmurs. 7) Move in a consistent order: apex to base for heart, top to bottom for lungs. 8) Record or note any unusual findings.",
+              
+              "Instructions for using a stethoscope stepwise: 1) Put on the earpieces, ensuring they point forward. 2) Choose the side of the chestpiece: diaphragm for high-pitched, bell for low. 3) Hold the chestpiece between fingers, not clenched in the palm. 4) Press it firmly against the skin. 5) Ask the patient to be quiet and still. 6) Listen and identify the sound patterns. 7) Reposition if needed and listen again. 8) Sanitize the stethoscope after use to prevent infections."
+            ],
+            "video_embed": "<iframe width='100%' height='315' src='https://www.youtube.com/embed/5Mb_O79Gh4o' frameborder='0' allowfullscreen></iframe>"
+          },          
+        {
             "tag": "stethoscope_troubleshoot",
             "patterns": [
                 "Why is my stethoscope not working?",
@@ -221,8 +248,36 @@
                 "Proper technique includes: Positioning cuff directly on skin (not over clothes), ensuring lower edge is 1 inch above elbow, keeping arm relaxed during inflation, and not talking during measurement.",
                 "Best practices: Measure at same time daily, empty bladder first, don't cross legs, keep cuff at heart level, use validated device, and record readings for doctor review with any symptoms noted.",
                 "For home monitoring: Take 2-3 readings morning and evening for a week, discard first day's readings, use same arm each time, follow manufacturer instructions, and bring log to medical appointments."
-            ]
+            ],
+            "video_embed": "<iframe width='100%' height='315' src='https://www.youtube.com/embed/mfwBpBXUYHs' frameborder='0' allowfullscreen></iframe>"
         },
+        {
+            "tag": "blood_pressure_monitoring_use_steps",
+            "patterns": [
+              "What are the steps to monitor blood pressure?",
+              "Give me a detailed procedure to measure blood pressure",
+              "Step-by-step guide for checking blood pressure",
+              "Tell me the correct steps to monitor blood pressure",
+              "How to measure blood pressure stepwise?",
+              "Detailed instructions for blood pressure monitoring",
+              "Explain the process of checking blood pressure",
+              "I want to know all the steps of measuring blood pressure",
+              "Proper usage steps of a blood pressure monitor",
+              "Blood pressure measurement procedure"
+            ],
+            "responses": [
+              "Here are the steps to monitor blood pressure: 1) Ask the patient to sit comfortably with back supported and legs uncrossed. 2) Ensure the arm is supported at heart level. 3) Wrap the cuff snugly around the upper arm with the lower edge about an inch above the elbow. 4) Place the stethoscope diaphragm over the brachial artery (for manual method). 5) Inflate the cuff to about 20-30 mmHg above the expected systolic pressure. 6) Slowly release the air while listening for the first (systolic) and last (diastolic) Korotkoff sounds. 7) Record the readings. 8) Remove the cuff and clean the equipment.",
+              
+              "Step-by-step procedure to measure blood pressure: 1) Have the patient rest for 5 minutes before measuring. 2) Make sure they are seated with arm supported at heart level. 3) Wrap the cuff evenly on the upper arm. 4) Inflate the cuff and listen with a stethoscope (manual) or watch the display (digital). 5) Note the systolic (first sound/beep) and diastolic (last sound/beep) readings. 6) Deflate the cuff slowly and remove it. 7) Record the result including time and arm used. 8) Repeat after a minute for accuracy if needed.",
+              
+              "Follow these steps: 1) Seat the patient and support their arm at heart level. 2) Wrap the cuff snugly around bare skin of the upper arm. 3) Inflate the cuff using the bulb (manual) or press start (digital). 4) Listen to sounds (manual) or read display. 5) Identify systolic and diastolic pressures. 6) Deflate the cuff and wait a minute before a second reading if needed. 7) Record the values and time. 8) Clean the equipment after use.",
+              
+              "To properly monitor blood pressure: 1) Let the patient sit quietly for 5 minutes. 2) Position their arm so it's level with the heart. 3) Wrap the cuff securely on the upper arm. 4) Inflate the cuff and slowly deflate while observing or listening. 5) Note the systolic (top) and diastolic (bottom) readings. 6) Ensure the patient is not talking or moving. 7) Wait and recheck if values are unusual. 8) Document the measurement and clean the cuff.",
+              
+              "Instructions for checking blood pressure stepwise: 1) Have the patient sit with arm supported and relaxed. 2) Select the correct cuff size and wrap it around the upper arm. 3) Inflate the cuff to about 180 mmHg or 30 mmHg above expected systolic pressure. 4) Release pressure slowly and listen for the first and last Korotkoff sounds. 5) Read and note the systolic and diastolic values. 6) Let the patient rest between multiple readings. 7) Log the result accurately. 8) Sanitize the cuff and stethoscope after use."
+            ],
+            "video_embed": "<iframe width='100%' height='315' src='https://www.youtube.com/embed/mfwBpBXUYHs' frameborder='0' allowfullscreen></iframe>"
+          },
         {
             "tag": "blood pressure monitor_troubleshoot",
             "patterns": [
@@ -304,8 +359,36 @@
                 "Best practices: Clean before/after use, wait for ready indicator, hold digital until beep, don't mix measurement sites, know normal ranges for each method, and record measurements with time/method.",
                 "For ear thermometers: Pull ear back to straighten canal, insert gently, aim at tympanic membrane, use fresh probe cover each time, and avoid use with ear infection or excessive wax.",
                 "Temporal artery thermometers: Swipe across forehead to temporal area, keep sensor clean/dry, measure in consistent environment, and avoid taking immediately after being outdoors in cold/heat."
-            ]
+            ],
+            "video_embed": "<iframe width='100%' height='315' src='https://www.youtube.com/embed/ZXTx4jAKEvA' frameborder='0' allowfullscreen></iframe>"
         },
+        {
+            "tag": "thermometer_use_steps",
+            "patterns": [
+              "What are the steps to use a thermometer?",
+              "Give me a detailed procedure to use a thermometer",
+              "Step-by-step guide for using a thermometer",
+              "Tell me the correct steps to operate a thermometer",
+              "How to use a thermometer stepwise?",
+              "Detailed instructions for using thermometer",
+              "Explain the process of using a thermometer",
+              "I want to know all the steps of using a thermometer",
+              "Proper usage steps of a thermometer",
+              "Thermometer usage procedure"
+            ],
+            "responses": [
+              "Here are the steps to use a thermometer: 1) Wash your hands before handling the thermometer. 2) If it's digital, press the power button to turn it on. 3) Place the thermometer in the correct position (oral, rectal, underarm, or ear depending on the type). 4) Ensure proper contact with the body. 5) Wait for the beep or signal indicating the reading is complete. 6) Read the temperature displayed. 7) Clean the thermometer with alcohol or soap and water if reusable. 8) Store it safely for next use.",
+              
+              "Step-by-step procedure to use a thermometer: 1) Turn on the thermometer. 2) Choose the site of measurement (mouth, armpit, rectum, or ear). 3) Place it properly—under the tongue for oral, snugly in the armpit, or gently in the rectum or ear. 4) Hold it in place until it beeps or shows a reading. 5) Check the temperature reading. 6) Clean the thermometer before and after use if it’s not disposable.",
+              
+              "Follow these steps: 1) Clean the thermometer if it's not new. 2) Turn it on. 3) Place it at the appropriate site. 4) Keep it steady until it completes the reading. 5) Record the temperature if necessary. 6) Sanitize and store the device safely.",
+              
+              "To properly use a thermometer: 1) Sanitize the thermometer before use. 2) Turn it on. 3) Depending on the type, place it under the tongue, in the armpit, rectum, or ear canal. 4) Wait for the beep or signal. 5) Note the temperature. 6) Clean the device and store it properly.",
+              
+              "Instructions for using a thermometer stepwise: 1) Turn on the device. 2) Place the thermometer correctly—oral, axillary, rectal, or tympanic. 3) Wait for the beep. 4) Read the temperature. 5) Clean the thermometer and wash your hands."
+            ],
+            "video_embed": "<iframe width='100%' height='315' src='https://www.youtube.com/embed/ZXTx4jAKEvA' frameborder='0' allowfullscreen></iframe>"
+          },
         {
             "tag": "thermometer_troubleshoot",
             "patterns": [
@@ -359,7 +442,7 @@
                 "In diabetes management, glucometers enable self-monitoring of blood glucose (SMBG), helping patients adjust diet, exercise and medication while providing data for healthcare providers to optimize treatment.",
                 "Systems include: lancing device to obtain blood, test strips with chemical reagents, meter to read results, and often connectivity to track trends. Newer models offer Bluetooth and app integration.",
                 "Step 1: A small *test strip* is inserted into the glucometer. Step 2: The user pricks their finger with a *lancet* (tiny needle) to get a small drop of blood. Step 3: The blood is placed on the test strip, which contains chemicals that react with glucose (sugar). Step 4: The glucometer reads the reaction and calculates the blood sugar level in mg/dL or mmol/L. Step 5: The result appears on the screen in seconds, helping users monitor their sugar levels to manage diabetes effectively."
-
+    
             ]
         },
         {
@@ -387,7 +470,31 @@
                 "For accuracy: Check strip expiration, keep meter clean, control testing conditions, enter correct code if required, store strips properly, and perform periodic control solution tests.",
                 "Best times to test: Fasting (morning), before meals, 2hrs after meals, bedtime, when symptoms occur, during illness, and more frequently when adjusting medications or during unusual activities.",
                 "Alternative site testing (palm, forearm) may be possible but note: results may differ from fingersticks, especially when glucose is changing rapidly. Consult your healthcare provider for guidance."
-            ]
+            ],
+            "video_embed": "<iframe width='100%' height='315' src='https://www.youtube.com/embed/DBrLoPs2Rxk' frameborder='0' allowfullscreen></iframe>"
+        },
+        {
+            "tag": "glucometer_use_steps",
+            "patterns": [
+              "What are the steps to use a glucometer?",
+              "Give me a detailed procedure to measure blood sugar",
+              "Step-by-step guide for checking blood glucose",
+              "Tell me the correct steps to operate a glucometer",
+              "How to use a glucometer stepwise?",
+              "Detailed instructions for using glucometer",
+              "Explain the process of using a glucometer",
+              "I want to know all the steps of using a blood sugar monitor",
+              "Proper usage steps of a glucometer",
+              "Blood glucose measurement procedure"
+            ],
+            "responses": [
+              "Here are the steps to use a glucometer: 1) Wash your hands with soap and water, then dry them thoroughly. 2) Insert a new test strip into the glucometer. 3) Use a lancet to prick the side of your fingertip. 4) Squeeze gently to get a drop of blood. 5) Touch the blood drop to the test strip sensor. 6) Wait for the glucometer to analyze the sample and display your blood sugar level. 7) Note the reading and time. 8) Dispose of the lancet and strip properly, and clean the device if needed.",
+              
+              "Step-by-step procedure to use a glucometer: 1) Prepare your supplies: glucometer, test strips, lancet device, alcohol swab. 2) Wash and dry your hands or use an alcohol swab (let it dry). 3) Insert the test strip into the device. 4) Prick your fingertip with the lancet. 5) Place the blood drop on the strip's designated area. 6) Wait for the reading to appear on the screen. 7) Record the value in a logbook or app. 8) Safely discard used materials.",
+              
+              "Follow these steps: 1) Clean your hands properly. 2) Load a test strip into the glucometer. 3) Use a lancing device to prick your finger. 4) Let a blood drop form and apply it to the strip. 5) The glucometer will show your glucose level in a few seconds. 6) Write down the result along with date/time."
+            ],
+            "video_embed": "<iframe width='100%' height='315' src='https://www.youtube.com/embed/DBrLoPs2Rxk' frameborder='0' allowfullscreen></iframe>"
         },
         {
             "tag": "glucometer_troubleshoot",
@@ -443,8 +550,7 @@
                 "The technology relies on Beer-Lambert law of light absorption. By comparing absorption at two wavelengths and analyzing pulsatile component, it calculates percent hemoglobin saturated with oxygen.",
                 "A pulse oximeter measures the oxygen level in your blood (SpO2) and your pulse rate.",
                 "Step 1: The device is clipped onto a finger, toe, or earlobe. Step 2: It shines red and infrared light through the skin. Oxygen-rich blood absorbs more infrared light, while oxygen-poor blood absorbs more red light. Step 3: The sensor detects how much light passes through the blood and calculates oxygen saturation. Step 4: The reading appears on the screen, showing SpO2 (%) and pulse rate (bpm). Step 5: A normal oxygen level is between *95-100%*, and low levels (below 90%) may indicate breathing problems or low oxygen supply in the body."
-            ],
-            "video_embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/YsZHfuYxPuI' frameborder='0' allowfullscreen></iframe>"
+            ]
         },
         {
             "tag": "pulse oximeter_use",
@@ -471,8 +577,36 @@
                 "Best practices: Check perfusion index (PI >1%), verify pulse waveform matches heart rate, avoid movement, remove artificial nails, warm cold extremities, and compare with clinical assessment when possible.",
                 "If readings seem low: Check probe placement, warm hands, try different finger, remove polish, remain still, ensure good circulation, and consider confirming with arterial blood gas if clinically indicated.",
                 "For continuous monitoring: Rotate fingers periodically to prevent pressure sores, check skin integrity, follow manufacturer's recommended wear time, and document trends rather than single readings."
-            ]
+            ],
+            "video_embed": "<iframe width='100%' height='315' src='https://www.youtube.com/embed/tWlv2V-MJU8' frameborder='0' allowfullscreen></iframe>"
         },
+        {
+            "tag": "pulse_oximeter_use_steps",
+            "patterns": [
+              "What are the steps to use a pulse oximeter?",
+              "Give me a detailed procedure to use a pulse oximeter",
+              "Step-by-step guide for using a pulse oximeter",
+              "Tell me the correct steps to operate a pulse oximeter",
+              "How to use a pulse oximeter stepwise?",
+              "Detailed instructions for using pulse oximeter",
+              "Explain the process of using a pulse oximeter",
+              "I want to know all the steps of using a pulse oximeter",
+              "Proper usage steps of a pulse oximeter",
+              "Pulse oximeter usage procedure"
+            ],
+            "responses": [
+              "Here are the steps to use a pulse oximeter: 1) Sit down and relax for a few minutes. 2) Turn on the pulse oximeter by pressing the power button. 3) Place your index or middle finger inside the oximeter clip, nail facing upward. 4) Keep your hand still while the reading is being taken. 5) Wait a few seconds for the device to show your oxygen saturation (SpO2) and pulse rate. 6) Record the readings if needed. 7) Remove your finger and turn off the device. 8) Clean the device with an alcohol swab after each use.",
+              
+              "Step-by-step procedure to use a pulse oximeter: 1) Wash your hands and sit calmly. 2) Turn on the device using the power button. 3) Insert one finger fully into the device, ensuring the nail is facing upward. 4) Keep the hand relaxed and still. 5) Wait until the pulse rate and oxygen level readings appear. 6) Note the readings shown on the display. 7) Remove your finger and switch off the device. 8) Sanitize the oximeter before storing it.",
+              
+              "Follow these steps to operate a pulse oximeter: 1) Turn on the oximeter. 2) Place your finger into the slot correctly. 3) Rest your hand on a flat surface to avoid movement. 4) Let the oximeter read for a few seconds. 5) Observe the SpO2 and heart rate displayed. 6) Record or memorize the numbers. 7) Remove your finger and clean the clip before putting it away.",
+              
+              "To properly use a pulse oximeter: 1) Power on the device. 2) Place it on your fingertip with the nail facing up. 3) Stay still and calm during the measurement. 4) Wait for stable readings to appear. 5) Check the oxygen saturation (SpO2) and pulse rate. 6) After noting the results, take your finger out. 7) Wipe the sensor area with alcohol.",
+              
+              "Instructions for using a pulse oximeter stepwise: 1) Sit down and relax. 2) Press the power button to turn on the device. 3) Insert your finger properly into the oximeter. 4) Do not move during the reading. 5) Wait till the screen shows steady numbers. 6) Note your SpO2 and heart rate values. 7) Remove the finger and switch off the oximeter. 8) Disinfect the device with a clean wipe."
+            ],
+            "video_embed": "<iframe width='100%' height='315' src='https://www.youtube.com/embed/tWlv2V-MJU8' frameborder='0' allowfullscreen></iframe>"
+          },
         {
             "tag": "pulse oximeter_troubleshoot",
             "patterns": [
@@ -554,8 +688,36 @@
                 "Electrode placement: RA/RL/LA/LL on limbs (avoid bony areas), V1-V6 in specific intercostal spaces. Consistent placement is crucial for accurate serial comparison of ECGs over time.",
                 "For quality tracings: Ensure no muscle tremor, proper lead connection, clean electrodes, stable environment (electrical interference-free), and patient in comfortable position (supine typically best).",
                 "Best practices: Check equipment daily, maintain proper supplies, follow standardized procedures, document any deviations, verify patient identity, and store tracings properly with correct patient information."
-            ]
+            ],
+            "video_embed": "<iframe width='100%' height='315' src='https://www.youtube.com/embed/UdT9Aj5Cujo' frameborder='0' allowfullscreen></iframe>"
         },
+        {
+            "tag": "ecg_machine_use_steps",
+            "patterns": [
+              "What are the steps to use an ECG machine?",
+              "Give me a detailed procedure to use an ECG machine",
+              "Step-by-step guide for ECG recording",
+              "Tell me how to operate an ECG machine",
+              "How to use an ECG machine stepwise?",
+              "Detailed instructions for using ECG machine",
+              "Explain the process of ECG recording",
+              "I want to know all the steps of ECG machine use",
+              "Proper usage steps of an ECG machine",
+              "ECG machine usage procedure"
+            ],
+            "responses": [
+              "Here are the steps to use an ECG machine: 1) Explain the procedure to the patient and ensure consent. 2) Ask the patient to lie down comfortably and relax. 3) Clean the skin where electrodes will be placed. 4) Attach the ECG electrodes to correct positions on the chest, arms, and legs. 5) Connect the lead wires correctly to each electrode. 6) Power on the machine and select the appropriate mode. 7) Instruct the patient to stay still and avoid talking. 8) Press record/start and monitor the tracing. 9) Save or print the ECG report. 10) Remove electrodes and clean the patient’s skin.",
+              
+              "Step-by-step ECG procedure: 1) Turn on the ECG machine. 2) Prepare patient: remove clothing from chest area and relax them. 3) Apply electrode gel or pads to the designated points. 4) Connect limb leads and chest leads as per standard 12-lead setup. 5) Check for proper contact and lead placement. 6) Begin the ECG recording. 7) Observe the ECG trace for noise or errors. 8) Save, print, or upload the report. 9) Clean electrodes and leads for reuse.",
+              
+              "To operate an ECG machine: 1) Position patient lying flat and calm. 2) Clean and prep the electrode sites. 3) Attach leads in correct anatomical positions. 4) Turn on ECG machine and confirm calibration. 5) Ask patient to avoid movement. 6) Capture the ECG waveform. 7) Analyze or save the results. 8) Remove leads and wipe equipment.",
+              
+              "ECG machine usage instructions: 1) Verify machine functionality and paper availability. 2) Position the patient. 3) Apply electrodes and ensure strong skin contact. 4) Attach the corresponding cables. 5) Record the ECG in resting position. 6) Save and print the output. 7) Wipe the patient's skin and clean electrodes.",
+              
+              "ECG usage steps: 1) Explain the process to reassure the patient. 2) Prep the skin and attach electrodes. 3) Connect lead wires to ECG ports. 4) Start the machine and ensure no interference. 5) Monitor and record. 6) Store or print results. 7) Remove all accessories and clean the device."
+            ],
+            "video_embed": "<iframe width='100%' height='315' src='https://www.youtube.com/embed/UdT9Aj5Cujo' frameborder='0' allowfullscreen></iframe>"
+          },
         {
             "tag": "ECG machine_troubleshoot",
             "patterns": [
@@ -637,8 +799,36 @@
                 "For non-invasive ventilation: Properly fit mask, start with lower pressures, gradually increase as tolerated, monitor for air leaks, check skin integrity regularly, and assess for need to transition to intubation.",
                 "Key monitoring includes: Oxygen saturation, end-tidal CO2, airway pressures, tidal volumes, respiratory rate, breath sounds, chest movement, and frequent assessment of sedation/comfort needs.",
                 "Safety practices: Daily spontaneous breathing trials when appropriate, head-of-bed elevation, oral care protocols, sedation vacations, cuff pressure monitoring, and regular ventilator circuit checks/changes."
-            ]
+            ],
+            "video_embed": "<iframe width='100%' height='315' src='https://www.youtube.com/embed/qSctpzk8bgg' frameborder='0' allowfullscreen></iframe>"
         },
+        {
+            "tag": "ventilator_use_steps",
+            "patterns": [
+              "What are the steps to use a ventilator?",
+              "Give me a detailed procedure to operate a ventilator",
+              "Step-by-step guide for using a ventilator",
+              "Tell me how to set up and use a ventilator",
+              "How to use a ventilator stepwise?",
+              "Detailed instructions for using ventilator",
+              "Explain the process of ventilator operation",
+              "I want to know all the steps of ventilator use",
+              "Proper usage steps of a ventilator",
+              "Ventilator usage procedure"
+            ],
+            "responses": [
+              "Here are the general steps to use a ventilator: 1) Confirm patient needs and doctor's prescription. 2) Connect the ventilator to a power source and oxygen supply. 3) Turn on the ventilator. 4) Set required ventilation mode and parameters (like tidal volume, rate, FiO2). 5) Attach the breathing circuit and test for leaks. 6) Connect the patient via endotracheal tube or mask. 7) Monitor vitals and ventilator parameters continuously. 8) Make adjustments as needed and document the settings.",
+              
+              "Step-by-step ventilator procedure: 1) Plug in and power on the ventilator. 2) Set ventilator mode (AC, SIMV, CPAP, etc.) as per need. 3) Configure settings such as tidal volume, respiratory rate, PEEP, and oxygen concentration. 4) Connect humidifier if required. 5) Attach the breathing circuit to the patient securely. 6) Monitor the patient’s oxygen levels and pressure alarms. 7) Watch for complications like barotrauma or apnea. 8) Sanitize components regularly.",
+              
+              "To use a ventilator: 1) Connect to oxygen and power. 2) Choose correct ventilation mode. 3) Enter basic settings like volume and frequency. 4) Attach patient via mask or tube. 5) Monitor pressure, volume, and patient response. 6) Adjust alarms and settings as needed. 7) Provide regular suctioning and oral care. 8) Clean parts and maintain hygiene.",
+              
+              "Ventilator usage instructions: 1) Check all equipment and connections. 2) Power on and run a system check. 3) Set appropriate ventilator mode and alarm limits. 4) Ensure humidification and temperature settings. 5) Connect to patient and check chest rise. 6) Watch for alarm triggers and intervene if needed. 7) Record hourly readings. 8) Perform regular circuit and filter maintenance.",
+              
+              "How to operate a ventilator: 1) Power the device and check oxygen line. 2) Set up patient parameters according to medical orders. 3) Connect the patient safely. 4) Monitor vitals, oxygenation, and waveform. 5) Respond to alarms promptly. 6) Suction airway if necessary. 7) Document changes. 8) Disinfect after patient use."
+            ],
+            "video_embed": "<iframe width='100%' height='315' src='https://www.youtube.com/embed/qSctpzk8bgg' frameborder='0' allowfullscreen></iframe>"
+          },
         {
             "tag": "ventilator_troubleshoot",
             "patterns": [
@@ -720,8 +910,36 @@
                 "For safety: Always double-check settings with another clinician for high-risk medications, use drug libraries when available, scan barcodes if system allows, and monitor frequently for infiltration or occlusion.",
                 "When changing bags: Pause pump, close roller clamp, replace bag, spike new container, purge air if needed, restart at correct rate, and document time/amount remaining from previous bag.",
                 "Best practices: Inspect solution before use, maintain sterile technique, change tubing per protocol (typically 96hrs), rotate sites periodically, and assess patient response to therapy regularly."
-            ]
+            ],
+            "video_embed": "<iframe width='100%' height='315' src='https://www.youtube.com/embed/Ki27CNJjZMU' frameborder='0' allowfullscreen></iframe>"
         },
+        {
+            "tag": "infusion_pump_use_steps",
+            "patterns": [
+              "What are the steps to use an infusion pump?",
+              "Give me a detailed procedure to use an infusion pump",
+              "Step-by-step guide for using an infusion pump",
+              "Tell me the correct steps to operate an infusion pump",
+              "How to use an infusion pump stepwise?",
+              "Detailed instructions for using infusion pump",
+              "Explain the process of using an infusion pump",
+              "I want to know all the steps of using an infusion pump",
+              "Proper usage steps of an infusion pump",
+              "Infusion pump usage procedure"
+            ],
+            "responses": [
+              "Here are the steps to use an infusion pump: 1) Wash your hands and wear gloves. 2) Prepare the IV fluid and infusion set as prescribed. 3) Load the IV tubing into the pump according to the manufacturer’s guidelines. 4) Prime the tubing to remove air bubbles. 5) Connect the tubing to the patient’s IV access. 6) Program the pump with the correct rate and volume. 7) Start the pump and observe for proper flow. 8) Monitor the patient and device regularly. 9) Document the infusion details and clean the equipment after use.",
+              
+              "Step-by-step procedure to use an infusion pump: 1) Turn on the pump and verify it’s functioning properly. 2) Hang the IV fluid bag and spike it with the infusion set. 3) Thread the tubing into the pump channel and secure it. 4) Prime the line to eliminate air. 5) Connect the line to the patient’s IV catheter. 6) Set the infusion rate and total volume to be delivered. 7) Double-check the settings and confirm. 8) Start the infusion and monitor the patient throughout.",
+              
+              "Follow these steps: 1) Prepare all supplies and verify physician orders. 2) Set up the IV solution and tubing. 3) Power on the infusion pump. 4) Load and prime the tubing as per the device instructions. 5) Connect to the patient. 6) Enter the rate and volume settings. 7) Start the pump. 8) Regularly check for alarms, occlusions, or patient reactions.",
+              
+              "To properly use an infusion pump: 1) Perform hand hygiene. 2) Set up the IV fluid bag and tubing. 3) Load the tubing into the pump device. 4) Prime the tubing carefully to remove air. 5) Connect to the patient’s line. 6) Program the flow rate and volume. 7) Begin the infusion. 8) Observe for alerts and troubleshoot as needed. 9) Record administration details.",
+              
+              "Instructions for using an infusion pump stepwise: 1) Turn on the infusion pump. 2) Prepare the IV solution and tubing. 3) Prime the tubing to ensure it’s free of air. 4) Load the tubing into the pump according to the manual. 5) Attach the tubing to the patient. 6) Set the rate and volume. 7) Start the pump. 8) Monitor the infusion site, patient condition, and pump performance. 9) Clean and store the equipment after use."
+            ],
+            "video_embed": "<iframe width='100%' height='315' src='https://www.youtube.com/embed/Ki27CNJjZMU' frameborder='0' allowfullscreen></iframe>"
+          },
         {
             "tag": "infusion pump_troubleshoot",
             "patterns": [
@@ -803,8 +1021,36 @@
                 "Pad placement: Anterolateral - right infraclavicular and left lateral midaxillary line; Anteroposterior - anterior precordium and left/infra scapular. Ensure good contact, avoid medication patches, and shave if needed.",
                 "Energy settings: Biphasic - follow manufacturer recommendation (typically 120-200J); Monophasic - 360J; Pediatric - 2-4J/kg. For synchronized cardioversion: Start lower (50-100J) for unstable SVT/Afib.",
                 "Safety: Ensure no one touching patient or conductive surfaces during shock, verify oxygen flow isn't crossing chest, dry chest if wet (avoid pools), and don't defibrillate during asystole/PEA."
-            ]
+            ],
+            "video_embed": "<iframe width='100%' height='315' src='https://www.youtube.com/embed/UFvL7wTFzl0' frameborder='0' allowfullscreen></iframe>"
         },
+        {
+            "tag": "defibrillator_use_steps",
+            "patterns": [
+              "What are the steps to use a defibrillator?",
+              "Give me a detailed procedure to use a defibrillator",
+              "Step-by-step guide for using a defibrillator",
+              "Tell me the correct steps to operate a defibrillator",
+              "How to use a defibrillator stepwise?",
+              "Detailed instructions for using defibrillator",
+              "Explain the process of using a defibrillator",
+              "I want to know all the steps of using a defibrillator",
+              "Proper usage steps of a defibrillator",
+              "Defibrillator usage procedure"
+            ],
+            "responses": [
+              "Here are the steps to use a defibrillator (AED): 1) Ensure the scene is safe. 2) Turn on the defibrillator. 3) Expose the person’s chest and dry it if wet. 4) Attach the electrode pads to the chest as shown on the pads. 5) Let the AED analyze the heart rhythm — do not touch the person. 6) If shock is advised, ensure no one is touching the person and press the shock button. 7) After shock or if no shock advised, continue CPR immediately. 8) Follow AED prompts until emergency services arrive.",
+              
+              "Step-by-step procedure to use a defibrillator: 1) Check for unresponsiveness and call for help. 2) Start CPR if necessary while someone retrieves an AED. 3) Open the AED and follow voice or screen instructions. 4) Apply pads on the bare chest correctly (upper right and lower left). 5) Allow AED to analyze rhythm — stand clear. 6) Deliver shock if prompted. 7) Resume CPR immediately. 8) Repeat analysis and shock cycle as guided until help arrives.",
+              
+              "Follow these steps to use a defibrillator: 1) Confirm cardiac arrest — check for breathing and pulse. 2) Start CPR and send for AED. 3) Open AED lid or press power button. 4) Attach the pads firmly to the chest. 5) Allow AED to assess rhythm. 6) Deliver shock if advised. 7) Continue CPR for 2 minutes and repeat the process. 8) Do not remove AED pads even if the person seems revived.",
+              
+              "To properly use an AED defibrillator: 1) Power on the device. 2) Expose chest and remove clothing or moisture. 3) Place the pads as directed on the diagrams. 4) Avoid contact during rhythm analysis. 5) Deliver shock if advised. 6) Immediately start or resume CPR. 7) Follow ongoing AED prompts. 8) Continue until professional help takes over.",
+              
+              "Instructions for using a defibrillator stepwise: 1) Make sure the area is safe. 2) Turn on the AED. 3) Apply the electrode pads on the bare chest. 4) Allow AED to analyze the heart rhythm. 5) Press shock if recommended. 6) Perform CPR between shocks. 7) Continue until the patient recovers or EMS arrives. 8) Keep AED attached for monitoring."
+            ],
+            "video_embed": "<iframe width='100%' height='315' src='https://www.youtube.com/embed/UFvL7wTFzl0' frameborder='0' allowfullscreen></iframe>"
+          },
         {
             "tag": "defibrillator_troubleshoot",
             "patterns": [
@@ -886,8 +1132,36 @@
                 "For children: Use properly sized mask, consider distraction techniques, ensure good seal (watch for leaks), possibly use while sleeping, and never force if causing significant distress - consult provider for alternatives.",
                 "Cleaning: After each use - rinse with sterile water, air dry; Daily - wash with mild soap/water, rinse thoroughly; Weekly - disinfect per manufacturer (often vinegar solution or boiling parts for 5 mins).",
                 "Best practices: Use fresh medication each time (don't mix doses), don't reuse leftover solution, ensure proper compressor flow (6-8L/min typically), replace parts every 3-6 months, and store equipment dry."
-            ]
+            ],
+            "video_embed": "<iframe width='100%' height='315' src='https://www.youtube.com/embed/pEKFKZiLNaA' frameborder='0' allowfullscreen></iframe>"
         },
+        {
+            "tag": "nebulizer_use_steps",
+            "patterns": [
+              "What are the steps to use a nebulizer?",
+              "Detailed procedure for using a nebulizer",
+              "How to use a nebulizer step by step?",
+              "Nebulizer usage steps",
+              "Explain nebulizer usage in detail",
+              "Guide to using a nebulizer machine",
+              "How to operate a nebulizer correctly?",
+              "Proper nebulizer procedure",
+              "Nebulizer stepwise instructions",
+              "Tell me the correct way to use a nebulizer"
+            ],
+            "responses": [
+              "Here are the steps to use a nebulizer: 1) Wash your hands thoroughly. 2) Place the prescribed medication into the nebulizer cup. 3) Connect the cup to the mouthpiece or mask. 4) Attach the tubing to the air compressor and the nebulizer. 5) Sit upright in a comfortable position. 6) Turn on the nebulizer machine. 7) Breathe in the mist slowly and deeply through your mouth. 8) Continue until all medication is used. 9) Turn off the machine and disconnect parts. 10) Wash the nebulizer parts in warm soapy water and let them air-dry.",
+              
+              "Follow these steps to use a nebulizer properly: 1) Clean your hands before handling the equipment. 2) Pour the medication into the nebulizer chamber as prescribed. 3) Connect the mouthpiece or mask to the chamber. 4) Attach the air tubing from the machine to the chamber. 5) Sit straight and place the mouthpiece in your mouth or wear the mask. 6) Turn on the machine to start generating mist. 7) Inhale deeply and slowly through the mouth until the mist stops. 8) When done, turn off and unplug the nebulizer. 9) Disassemble and clean all reusable parts. 10) Let everything dry completely before storing.",
+              
+              "To use a nebulizer: 1) Wash your hands. 2) Prepare the medication as prescribed. 3) Pour it into the nebulizer cup. 4) Assemble the mouthpiece or mask, cup, and tubing. 5) Connect the tubing to the machine. 6) Sit upright and switch the machine on. 7) Inhale the mist through your mouth slowly and fully. 8) Continue until the mist stops. 9) Turn off the machine. 10) Rinse and clean the parts for next use.",
+              
+              "Nebulizer usage procedure: 1) Wash hands with soap and water. 2) Open medication and pour into the nebulizer cup. 3) Connect the cup to the mask or mouthpiece. 4) Connect tubing between the nebulizer and compressor. 5) Sit upright and relax. 6) Turn on the compressor. 7) Breathe slowly and deeply until the medication is gone. 8) Shut off the machine. 9) Disassemble parts and clean them. 10) Allow parts to air dry on a clean surface.",
+              
+              "Step-by-step guide to using a nebulizer: 1) Clean your hands before touching the equipment. 2) Add prescribed medication to the medicine cup. 3) Assemble the nebulizer by attaching the mouthpiece or mask. 4) Connect the tubing to both the nebulizer and compressor. 5) Sit comfortably and upright. 6) Place the mask over your nose and mouth or insert the mouthpiece. 7) Turn the compressor on. 8) Inhale the mist slowly and evenly until done. 9) Turn off the device. 10) Clean the components as per instructions."
+            ],
+            "video_embed": "<iframe width='100%' height='315' src='https://www.youtube.com/embed/pEKFKZiLNaA' frameborder='0' allowfullscreen></iframe>"
+          },
         {
             "tag": "nebulizer_troubleshoot",
             "patterns": [

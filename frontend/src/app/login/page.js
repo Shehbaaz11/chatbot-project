@@ -28,8 +28,8 @@ function page() {
         password: password
       }
 
-      console.log('Sending login request to:', 'http://127.0.0.1:8282/users/login');
-      const response = await axios.post("http://127.0.0.1:8282/users/login", loggedUser);
+      console.log('Sending login request to:', 'http://localhost:8282/users/login');
+      const response = await axios.post("http://localhost:8282/users/login", loggedUser);
 
       if(response.status === 200){
         const data = response.data;
@@ -81,6 +81,11 @@ function page() {
         <div className="w-1/2 flex flex-col items-center justify-center">
           <h1 style={{color:"#88c0d0"}} className="text-3xl font-bold pb-8">Log into your account</h1>
           <form onSubmit={handleSubmit} className="flex items-center flex-col gap-5">
+            {error && (
+              <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative w-80 mb-4" role="alert">
+                <span className="block sm:inline">{error}</span>
+              </div>
+            )}
             <div className="flex flex-col gap-2">
               <h2 className="text-sm ml-4">Enter your email</h2>
               <input required value={email} onChange={(e) => setEmail(e.target.value)} type="email" placeholder="Email" className="px-6 py-3 rounded-3xl text-gray-900 min-w-80" />

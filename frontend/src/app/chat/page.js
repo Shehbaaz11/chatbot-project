@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, memo } from "react";
+import { useState, useEffect, memo, useRef } from "react";
 import "../../styles/globals.css";
 import { useRouter } from "next/navigation";
 
@@ -36,6 +36,8 @@ const Chatbot = () => {
   const [username, setUsername] = useState("");
   // Add a state to track if we're currently sending a message
   const [isSending, setIsSending] = useState(false);
+  // Create a reference to the chat box for auto-scrolling
+  const chatBoxRef = useRef(null);
 
   useEffect(() => {
     setIsMounted(true);
@@ -201,6 +203,13 @@ const Chatbot = () => {
     }
   };
 
+  // Auto-scroll to bottom when messages change
+  useEffect(() => {
+    if (chatBoxRef.current) {
+      chatBoxRef.current.scrollTop = chatBoxRef.current.scrollHeight;
+    }
+  }, [messages]);
+
   if (!isMounted) return null;
 
   return (
@@ -245,7 +254,7 @@ const Chatbot = () => {
 
       <div className="chat-content">
         <div className="chat-header">Medexa</div>
-        <div className="chat-box">
+        <div className="chat-box" ref={chatBoxRef}>
           {messages.map((msg, index) => (
             <ChatMessage key={`chatbox-${index}`} message={msg} />
           ))}
